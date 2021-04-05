@@ -1,7 +1,0 @@
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_lint_auto/CMakeFiles/install.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_lint_auto/CMakeFiles/list_install_components.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_lint_auto/CMakeFiles/rebuild_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_lint_auto/CMakeFiles/edit_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_lint_auto/CMakeFiles/install/local.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_lint_auto/CMakeFiles/ament_lint_auto_uninstall.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_lint_auto/CMakeFiles/uninstall.dir

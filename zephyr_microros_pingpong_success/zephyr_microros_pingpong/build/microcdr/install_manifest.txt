@@ -1,8 +1,0 @@
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microcdr/lib/libmicrocdr.a
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microcdr/include/ucdr/microcdr.h
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microcdr/include/ucdr/visibility.h
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microcdr/include/ucdr/config.h
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake

@@ -1,8 +1,0 @@
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/install/local.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/install.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/list_install_components.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/rebuild_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/edit_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/test.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/rosidl_typesupport_interface_uninstall.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/uninstall.dir

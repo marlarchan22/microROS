@@ -1,7 +1,0 @@
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_cmake_export_include_directories/CMakeFiles/install.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_cmake_export_include_directories/CMakeFiles/list_install_components.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_cmake_export_include_directories/CMakeFiles/rebuild_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_cmake_export_include_directories/CMakeFiles/edit_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_cmake_export_include_directories/CMakeFiles/install/local.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_cmake_export_include_directories/CMakeFiles/ament_cmake_export_include_directories_uninstall.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_cmake_export_include_directories/CMakeFiles/uninstall.dir

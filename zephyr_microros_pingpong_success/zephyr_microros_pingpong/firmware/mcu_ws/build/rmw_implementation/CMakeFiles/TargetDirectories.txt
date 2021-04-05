@@ -1,9 +1,0 @@
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/install/strip.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/install/local.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/install.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/list_install_components.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/rebuild_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/edit_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/test.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/rmw_implementation_uninstall.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rmw_implementation/CMakeFiles/uninstall.dir

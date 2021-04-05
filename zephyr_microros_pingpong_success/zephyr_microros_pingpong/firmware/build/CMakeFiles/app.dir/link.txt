@@ -1,2 +1,0 @@
-ccache /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc app/libapp.a CMakeFiles/app.dir/src/main.c.obj
-ccache /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib app/libapp.a

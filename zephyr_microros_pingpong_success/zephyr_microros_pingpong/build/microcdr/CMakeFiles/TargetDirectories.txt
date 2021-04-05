@@ -1,7 +1,0 @@
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microcdr/CMakeFiles/install/strip.dir
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microcdr/CMakeFiles/install/local.dir
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microcdr/CMakeFiles/install.dir
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microcdr/CMakeFiles/list_install_components.dir
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microcdr/CMakeFiles/rebuild_cache.dir
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microcdr/CMakeFiles/edit_cache.dir
-/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microcdr/CMakeFiles/microcdr.dir

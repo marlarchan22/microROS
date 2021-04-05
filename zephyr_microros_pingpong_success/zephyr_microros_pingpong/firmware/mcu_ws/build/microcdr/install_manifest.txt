@@ -1,8 +1,0 @@
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/libmicrocdr.a
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/ucdr/visibility.h
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/ucdr/microcdr.h
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/ucdr/config.h
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-debug.cmake
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake

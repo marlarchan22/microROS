@@ -1,8 +1,0 @@
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/common_interfaces/CMakeFiles/install/local.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/common_interfaces/CMakeFiles/install.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/common_interfaces/CMakeFiles/list_install_components.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/common_interfaces/CMakeFiles/rebuild_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/common_interfaces/CMakeFiles/edit_cache.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/common_interfaces/CMakeFiles/test.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/common_interfaces/CMakeFiles/common_interfaces_uninstall.dir
-/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/common_interfaces/CMakeFiles/uninstall.dir

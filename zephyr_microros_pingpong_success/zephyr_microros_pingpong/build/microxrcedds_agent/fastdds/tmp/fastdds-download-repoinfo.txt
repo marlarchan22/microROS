@@ -1,5 +1,0 @@
-method=git
-repository=https://github.com/eProsima/Fast-DDS.git
-remote=origin
-source_dir=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microxrcedds_agent/fastdds/src/fastdds
-

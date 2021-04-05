@@ -1,1 +1,0 @@
-"DTS_ROOT":"/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/modules/hal/stm32"

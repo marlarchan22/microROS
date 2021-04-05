@@ -1,5 +1,0 @@
-method=git
-repository=https://github.com/arsenm/sanitizers-cmake
-remote=origin
-source_dir=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/microxrcedds_agent/sanitizers/src/sanitizers
-

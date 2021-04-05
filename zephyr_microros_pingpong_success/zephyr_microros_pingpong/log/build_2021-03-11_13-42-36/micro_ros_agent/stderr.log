@@ -1,1 +1,0 @@
-/usr/bin/ld: warning: libfastrtps.so.2, needed by /opt/ros/foxy/lib/librmw_fastrtps_shared_cpp.so, may conflict with libfastrtps.so.2.0.2

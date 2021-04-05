@@ -1,2 +1,0 @@
-osource "/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/soc/$(ARCH)/Kconfig"
-osource "/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/soc/$(ARCH)/*/Kconfig"

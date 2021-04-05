@@ -1,2 +1,0 @@
-/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc librclc_lifecycle.a CMakeFiles/rclc_lifecycle.dir/src/rclc_lifecycle/rclc_lifecycle.c.obj
-/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib librclc_lifecycle.a
