@@ -1,0 +1,6 @@
+When update Movelt into success PingPong code
+
+1. Copy #include files
+2. Copy firmware/zephyr_apps/microros_externsions/microros_transport.c/.h
+3. Merge install/micro_ros_setup/config/zephyr/ generic/configure.sh
+4. Merge src/micro_ros_setup/config/zephyr/ generic/configure.sh
