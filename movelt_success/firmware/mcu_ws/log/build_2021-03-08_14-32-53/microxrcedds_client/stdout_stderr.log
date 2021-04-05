@@ -1,0 +1,1008 @@
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/marlar/movelt_success/firmware/mcu_ws/build/microxrcedds_client
+[  4%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj[0m
+[  8%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj[0m
+[ 12%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj[0m
+[ 16%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj[0m
+[ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj[0m
+[ 25%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj[0m
+[ 29%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj[0m
+[ 33%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj[0m
+[ 37%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/output_best_effort_stream.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/stream_storage.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/stream_storage_internal.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/stream_storage.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/input_best_effort_stream.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/input_best_effort_stream_internal.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/input_best_effort_stream.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/reliable_stream.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/output_reliable_stream.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/output_reliable_stream_internal.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/output_reliable_stream.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/output_best_effort_stream.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/output_best_effort_stream_internal.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/output_best_effort_stream.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 41%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session_info.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 45%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/object_id.h:24[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session_info.c:2[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/stream_id.h:24[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/stream_id.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/seq_num_internal.h:24[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/seq_num.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 50%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj[0m
+[ 54%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/submessage_internal.h:24[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/submessage.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/serialization/xrce_header_internal.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/serialization/xrce_header.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 58%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/object_id.h:24[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/object_id.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 62%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj[0m
+[ 66%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj[0m
+[ 70%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/serialization/xrce_subheader_internal.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/serialization/xrce_subheader.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 75%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/util/time.h:24[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:12[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:113:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+  113 | #[01;35m[Kinclude_next[m[K <time.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/communication/communication.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/custom/custom_transport.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/transport.h:56[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/util/ping.h:24[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/ping.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 79%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain.h:41[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:19[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain/gcc.h:62:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+   62 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert(EXPR, "" MSG)
+      |                               [01;35m[K^~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:21[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:[m[K In function '[01m[Katomic_test_bit[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:412:49:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  412 | #define ATOMIC_ELEM(addr, bit) ((addr) + ((bit) [01;35m[K/[m[K ATOMIC_BITS))
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:447:32:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_ELEM[m[K'
+  447 |  atomic_val_t val = atomic_get([01;36m[KATOMIC_ELEM[m[K(target, bit));
+      |                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:449:27:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  449 |  return (1 & (val >> (bit [01;35m[K&[m[K (ATOMIC_BITS - 1)))) != 0;
+      |                           [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:[m[K In function '[01m[Katomic_test_and_clear_bit[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:411:26:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Katomic_val_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kunsigned int[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  411 | #define ATOMIC_MASK(bit) [01;35m[K([m[K1U << ((uint32_t)(bit) & (ATOMIC_BITS - 1U)))
+      |                          [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:465:22:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_MASK[m[K'
+  465 |  atomic_val_t mask = [01;36m[KATOMIC_MASK[m[K(bit);
+      |                      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:412:49:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  412 | #define ATOMIC_ELEM(addr, bit) ((addr) + ((bit) [01;35m[K/[m[K ATOMIC_BITS))
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:468:19:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_ELEM[m[K'
+  468 |  old = atomic_and([01;36m[KATOMIC_ELEM[m[K(target, bit), ~mask);
+      |                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:[m[K In function '[01m[Katomic_test_and_set_bit[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:411:26:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Katomic_val_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kunsigned int[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  411 | #define ATOMIC_MASK(bit) [01;35m[K([m[K1U << ((uint32_t)(bit) & (ATOMIC_BITS - 1U)))
+      |                          [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:486:22:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_MASK[m[K'
+  486 |  atomic_val_t mask = [01;36m[KATOMIC_MASK[m[K(bit);
+      |                      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:412:49:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  412 | #define ATOMIC_ELEM(addr, bit) ((addr) + ((bit) [01;35m[K/[m[K ATOMIC_BITS))
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:489:18:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_ELEM[m[K'
+  489 |  old = atomic_or([01;36m[KATOMIC_ELEM[m[K(target, bit), mask);
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:[m[K In function '[01m[Katomic_clear_bit[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:411:26:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Katomic_val_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kunsigned int[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  411 | #define ATOMIC_MASK(bit) [01;35m[K([m[K1U << ((uint32_t)(bit) & (ATOMIC_BITS - 1U)))
+      |                          [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:507:22:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_MASK[m[K'
+  507 |  atomic_val_t mask = [01;36m[KATOMIC_MASK[m[K(bit);
+      |                      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:412:49:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  412 | #define ATOMIC_ELEM(addr, bit) ((addr) + ((bit) [01;35m[K/[m[K ATOMIC_BITS))
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:509:19:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_ELEM[m[K'
+  509 |  (void)atomic_and([01;36m[KATOMIC_ELEM[m[K(target, bit), ~mask);
+      |                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:[m[K In function '[01m[Katomic_set_bit[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:411:26:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Katomic_val_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kunsigned int[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  411 | #define ATOMIC_MASK(bit) [01;35m[K([m[K1U << ((uint32_t)(bit) & (ATOMIC_BITS - 1U)))
+      |                          [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:525:22:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_MASK[m[K'
+  525 |  atomic_val_t mask = [01;36m[KATOMIC_MASK[m[K(bit);
+      |                      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:412:49:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  412 | #define ATOMIC_ELEM(addr, bit) ((addr) + ((bit) [01;35m[K/[m[K ATOMIC_BITS))
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:527:18:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_ELEM[m[K'
+  527 |  (void)atomic_or([01;36m[KATOMIC_ELEM[m[K(target, bit), mask);
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:[m[K In function '[01m[Katomic_set_bit_to[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:411:26:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Katomic_val_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kunsigned int[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  411 | #define ATOMIC_MASK(bit) [01;35m[K([m[K1U << ((uint32_t)(bit) & (ATOMIC_BITS - 1U)))
+      |                          [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:544:22:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_MASK[m[K'
+  544 |  atomic_val_t mask = [01;36m[KATOMIC_MASK[m[K(bit);
+      |                      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:412:49:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  412 | #define ATOMIC_ELEM(addr, bit) ((addr) + ((bit) [01;35m[K/[m[K ATOMIC_BITS))
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:547:19:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_ELEM[m[K'
+  547 |   (void)atomic_or([01;36m[KATOMIC_ELEM[m[K(target, bit), mask);
+      |                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:412:49:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  412 | #define ATOMIC_ELEM(addr, bit) ((addr) + ((bit) [01;35m[K/[m[K ATOMIC_BITS))
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/atomic.h:549:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KATOMIC_ELEM[m[K'
+  549 |   (void)atomic_and([01;36m[KATOMIC_ELEM[m[K(target, bit), ~mask);
+      |                    [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session_info.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/common_create_entities.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/create_entities_ref.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/create_entities_ref.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 87%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj[0m
+[ 87%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sched_priq.h:10[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/dlist.h:[m[K At top level:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/dlist.h:35:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   35 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/dlist.h:39:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   39 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/dlist.h:31:8:[m[K [01;35m[Kwarning: [m[Kstruct has no named members [[01;35m[K-Wpedantic[m[K]
+   31 | struct [01;35m[K_dnode[m[K {
+      |        [01;35m[K^~~~~~[m[K
+[ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj[0m
+[ 95%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:29[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/mempool_heap.h:27:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   27 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/mempool_heap.h:23:8:[m[K [01;35m[Kwarning: [m[Kstruct has no named members [[01;35m[K-Wpedantic[m[K]
+   23 | struct [01;35m[Kk_mem_block[m[K {
+      |        [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session_info.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/common_create_entities.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/create_entities_xml.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/create_entities_xml.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session_info.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/write_access.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/write_access.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/seq_num.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session_info.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/session.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/session/read_access.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/read_access.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/util/time.h:24[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/arch.h:26[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/cpu.h:19[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:33[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:92:36:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   92 |   sys_define_gpr_with_alias(a1, r0)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:93:36:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   93 |   sys_define_gpr_with_alias(a2, r1)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:94:36:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   94 |   sys_define_gpr_with_alias(a3, r2)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:95:36:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   95 |   sys_define_gpr_with_alias(a4, r3)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:96:37:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   96 |   sys_define_gpr_with_alias(ip, r12)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:97:37:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   97 |   sys_define_gpr_with_alias(lr, r14)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:98:37:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   98 |   sys_define_gpr_with_alias(pc, r15)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/communication/communication.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/custom/custom_transport.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/custom_transport.c:1[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/arch.h:31[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/cpu.h:19[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:33[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/ffs.h:[m[K In function '[01m[Kfind_msb_set[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/ffs.h:37:12:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   37 |  return [01;35m[K32 - __builtin_clz(op)[m[K;
+      |         [01;35m[K~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/ffs.h:[m[K In function '[01m[Kfind_lsb_set[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/ffs.h:55:23:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   55 |  return __builtin_ffs([01;35m[Kop[m[K);
+      |                       [01;35m[K^~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/ffs.h:55:9:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   55 |  return [01;35m[K__builtin_ffs(op)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/arch.h:34[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/cpu.h:19[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:33[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/sys_bitops.h:[m[K In function '[01m[Ksys_set_bit[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/sys_bitops.h:28:36:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   28 |  *(volatile uint32_t *)addr = temp [01;35m[K|[m[K (1 << bit);
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/sys_bitops.h:[m[K In function '[01m[Ksys_clear_bit[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/sys_bitops.h:35:36:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   35 |  *(volatile uint32_t *)addr = temp [01;35m[K&[m[K ~(1 << bit);
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/sys_bitops.h:[m[K In function '[01m[Ksys_test_bit[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/sys_bitops.h:42:14:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   42 |  return temp [01;35m[K&[m[K (1 << bit);
+      |              [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/common/sys_bitops.h:42:14:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   42 |  return [01;35m[Ktemp & (1 << bit)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys_clock.h:25[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:35[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:217:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  217 |  return z_tmcvt(t, Z_HZ_ms, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, false, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:217:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  217 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_floor64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:231:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  231 |  return z_tmcvt(t, Z_HZ_ms, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, false, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:245:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  245 |  return z_tmcvt(t, Z_HZ_ms, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, false, true);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:245:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  245 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_near64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:259:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  259 |  return z_tmcvt(t, Z_HZ_ms, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, false, true);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:273:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  273 |  return z_tmcvt(t, Z_HZ_ms, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, true, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:273:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  273 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_ceil64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:287:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  287 |  return z_tmcvt(t, Z_HZ_ms, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, true, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:301:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  301 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:329:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  329 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:357:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  357 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:385:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  385 |  return z_tmcvt(t, Z_HZ_us, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, false, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:385:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  385 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_floor64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:399:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  399 |  return z_tmcvt(t, Z_HZ_us, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, false, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:413:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  413 |  return z_tmcvt(t, Z_HZ_us, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, false, true);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:413:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  413 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_near64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:427:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  427 |  return z_tmcvt(t, Z_HZ_us, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, false, true);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:441:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  441 |  return z_tmcvt(t, Z_HZ_us, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, true, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:441:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  441 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_ceil64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:455:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  455 |  return z_tmcvt(t, Z_HZ_us, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, true, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:469:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  469 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:497:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  497 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:525:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  525 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:553:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  553 |  return z_tmcvt(t, Z_HZ_ns, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, false, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:553:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  553 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_floor64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:567:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  567 |  return z_tmcvt(t, Z_HZ_ns, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, false, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:581:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  581 |  return z_tmcvt(t, Z_HZ_ns, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, false, true);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:581:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  581 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_near64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:595:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  595 |  return z_tmcvt(t, Z_HZ_ns, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, false, true);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:609:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  609 |  return z_tmcvt(t, Z_HZ_ns, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, true, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:609:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  609 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_ceil64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:623:29:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  623 |  return z_tmcvt(t, Z_HZ_ns, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, true, false);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:637:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  637 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:665:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  665 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:693:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  693 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:721:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  721 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ms, Z_CCYC, true, false, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:721:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  721 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_floor64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:735:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  735 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ms, Z_CCYC, false, false, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:749:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  749 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ms, Z_CCYC, true, false, true);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:749:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  749 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_near64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:763:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  763 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ms, Z_CCYC, false, false, true);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:777:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  777 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ms, Z_CCYC, true, true, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:777:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  777 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_ceil64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:791:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  791 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ms, Z_CCYC, false, true, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:805:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  805 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_us, Z_CCYC, true, false, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:805:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  805 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_floor64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:819:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  819 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_us, Z_CCYC, false, false, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:833:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  833 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_us, Z_CCYC, true, false, true);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:833:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  833 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_near64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:847:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  847 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_us, Z_CCYC, false, false, true);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:861:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  861 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_us, Z_CCYC, true, true, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:861:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  861 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_ceil64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:875:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  875 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_us, Z_CCYC, false, true, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:889:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  889 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ns, Z_CCYC, true, false, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:889:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  889 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_floor64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:903:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  903 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ns, Z_CCYC, false, false, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:917:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  917 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ns, Z_CCYC, true, false, true);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:917:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  917 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_near64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:931:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  931 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ns, Z_CCYC, false, false, true);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:945:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  945 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ns, Z_CCYC, true, true, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:945:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  945 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_ceil64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:959:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  959 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ns, Z_CCYC, false, true, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:973:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  973 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ticks, Z_CCYC, true, false, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:973:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  973 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_floor64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:987:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+  987 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ticks, Z_CCYC, false, false, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1001:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1001 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ticks, Z_CCYC, true, false, true);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1001:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1001 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_near64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1015:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1015 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ticks, Z_CCYC, false, false, true);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1029:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1029 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ticks, Z_CCYC, true, true, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1029:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1029 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_ceil64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1043:20:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1043 |  return z_tmcvt(t, [01;36m[KZ_HZ_cyc[m[K, Z_HZ_ticks, Z_CCYC, false, true, false);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1057:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1057 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1085:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1085 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1113:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1113 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1141:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1141 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1169:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1169 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1197:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1197 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1225:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1225 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1253:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1253 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1281:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1281 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_floor32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1309:32:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1309 |  return z_tmcvt(t, Z_HZ_ticks, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, false, false);
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1309:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1309 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_floor64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1323:32:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1323 |  return z_tmcvt(t, Z_HZ_ticks, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, false, false);
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_near32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1337:32:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1337 |  return z_tmcvt(t, Z_HZ_ticks, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, false, true);
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1337:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1337 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_near64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1351:32:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1351 |  return z_tmcvt(t, Z_HZ_ticks, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, false, true);
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_ceil32[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1365:32:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1365 |  return z_tmcvt(t, Z_HZ_ticks, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, true, true, false);
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1365:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1365 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_ceil64[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:202:18:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  202 | #define Z_HZ_cyc [01;35m[Ksys_clock_hw_cycles_per_sec()[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/time_units.h:1379:32:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_HZ_cyc[m[K'
+ 1379 |  return z_tmcvt(t, Z_HZ_ticks, [01;36m[KZ_HZ_cyc[m[K, Z_CCYC, false, true, false);
+      |                                [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:36[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/spinlock.h:[m[K In function '[01m[Kk_spin_lock[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/spinlock.h:126:10:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Kunsigned int[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  126 |  k.key = [01;35m[Karch_irq_lock[m[K();
+      |          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/spinlock.h:[m[K In function '[01m[Kk_spin_unlock[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/spinlock.h:185:21:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kunsigned int[m[K' from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  185 |  arch_irq_unlock([01;35m[Kkey.key[m[K);
+      |                  [01;35m[K~~~^~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/app_memory/mem_domain.h:15[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:40[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel/thread.h:[m[K At top level:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel/thread.h:45:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   45 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel/thread.h:81:4:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   81 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel/thread.h:83:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   83 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:35[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_msleep[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/util.h:168:38:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+  168 | #define MAX(a, b) [01;35m[K(((a) > (b)) ? (a) : (b))[m[K
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys_clock.h:86:55:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KZ_TIMEOUT_TICKS[m[K'
+   86 | #define Z_TIMEOUT_TICKS(t) ((k_timeout_t) { .ticks = ([01;36m[Kt[m[K) })
+      |                                                       [01;36m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys_clock.h:91:74:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMAX[m[K'
+   91 | # define Z_TIMEOUT_MS(t) Z_TIMEOUT_TICKS((k_ticks_t)k_ms_to_ticks_ceil64([01;36m[KMAX[m[K(t, 0)))
+      |                                                                          [01;36m[K^~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:464:17:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_TIMEOUT_MS[m[K'
+  464 |  return k_sleep([01;36m[KZ_TIMEOUT_MS[m[K(ms));
+      |                 [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_timer_remaining_get[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:1505:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1505 |  return k_ticks_to_ms_floor32([01;35m[Kk_timer_remaining_ticks(timer)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_uptime_get[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:1582:31:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} from '[01m[Kint64_t[m[K' {aka '[01m[Klong long int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+ 1582 |  return k_ticks_to_ms_floor64([01;35m[Kk_uptime_ticks()[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:1582:9:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint64_t[m[K' {aka '[01m[Klong long int[m[K'} from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+ 1582 |  return [01;35m[Kk_ticks_to_ms_floor64(k_uptime_ticks())[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:1657:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 1657 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_init[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:2738:12:[m[K [01;35m[Kwarning: [m[KISO C forbids empty initializer braces [[01;35m[K-Wpedantic[m[K]
+ 2738 |    .node = [01;35m[K{[m[K},\
+      |            [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:2773:33:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_DELAYED_WORK_INITIALIZER[m[K'
+ 2773 |  *work = (struct k_delayed_work)[01;36m[KZ_DELAYED_WORK_INITIALIZER[m[K(handler);
+      |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_remaining_get[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:2964:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 2964 |  return k_ticks_to_ms_floor32([01;35m[Kz_timeout_remaining(&work->timeout)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:2964:9:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint32_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+ 2964 |  return [01;35m[Kk_ticks_to_ms_floor32(z_timeout_remaining(&work->timeout))[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:3283:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 3283 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:4551:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 4551 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:3[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:[m[K In function '[01m[K_ts_to_ms[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:84:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Klong unsigned int[m[K' from '[01m[Klong int[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   84 |  return (to->tv_sec * MSEC_PER_SEC) + (to->tv_nsec [01;35m[K/[m[K NSEC_PER_MSEC);
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:84:37:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Klong long int[m[K' to '[01m[Kint32_t[m[K' {aka '[01m[Kint[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+   84 |  return [01;35m[K(to->tv_sec * MSEC_PER_SEC) + (to->tv_nsec / NSEC_PER_MSEC)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking C static library libmicroxrcedds_client.a[0m
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libmicroxrcedds_client.a CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libmicroxrcedds_client.a
+[100%] Built target microxrcedds_client
+-- Install configuration: "Debug"
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/lib/libmicroxrcedds_client.a
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/client.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/discovery
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/discovery/discovery.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/stream_framing
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/ip.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/custom
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/custom/custom_transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/util
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/util/time.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/util/ping.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/communication
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/communication/communication.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/type
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/type/xrce_types.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/session.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_ref.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/stream_id.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/reliable_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/seq_num.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/output_reliable_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/stream_storage.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/input_reliable_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/input_best_effort_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/output_best_effort_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/read_access.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_xml.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/object_id.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/common_create_entities.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/session_info.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/write_access.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/time_sync.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/defines.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/visibility.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/config.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets-debug.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake

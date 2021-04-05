@@ -1,0 +1,69 @@
+[0.088s] Invoking command in '/home/marlar/movelt_success/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/marlar/movelt_success/ros2_control/hardware_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/hardware_interface
+[0.160s] -- The C compiler identification is GNU 9.3.0
+[0.237s] -- The CXX compiler identification is GNU 9.3.0
+[0.247s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.325s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.329s] -- Detecting CXX compiler ABI info
+[0.411s] -- Detecting CXX compiler ABI info - done
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.456s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.456s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.748s] -- Found control_msgs: 2.5.0 (/opt/ros/foxy/share/control_msgs/cmake)
+[0.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.801s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.900s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.928s] -- Found FastRTPS: /home/marlar/movelt_success/install/microxrcedds_agent/include  
+[0.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.321s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.355s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.357s] -- Looking for pthread.h
+[1.444s] -- Looking for pthread.h - found
+[1.445s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.513s] -- Looking for pthread_create in pthreads
+[1.575s] -- Looking for pthread_create in pthreads - not found
+[1.575s] -- Looking for pthread_create in pthread
+[1.647s] -- Looking for pthread_create in pthread - found
+[1.648s] -- Found Threads: TRUE  
+[1.766s] -- Found tinyxml2_vendor: 0.7.3 (/opt/ros/foxy/share/tinyxml2_vendor/cmake)
+[1.778s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[1.780s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.883s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.884s] CMake Deprecation Warning at /opt/ros/foxy/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[1.885s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.885s]   CMake.
+[1.885s] 
+[1.885s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.885s]   CMake that the project does not need compatibility with older versions.
+[1.885s] 
+[1.885s] 
+[1.887s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.888s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.889s] CMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[1.889s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.890s]   CMake.
+[1.890s] 
+[1.890s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.890s]   CMake that the project does not need compatibility with older versions.
+[1.890s] 
+[1.890s] 
+[1.897s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.899s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.899s] -- Configured cppcheck include dirs: /home/marlar/movelt_success/ros2_control/hardware_interface/include
+[1.899s] -- Configured cppcheck exclude dirs and/or files: 
+[1.901s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.901s] -- Configured cpplint exclude dirs and/or files: 
+[1.902s] -- Added test 'lint_cmake' to check CMake code style
+[1.904s] -- Added test 'uncrustify' to check C / C++ code style
+[1.904s] -- Configured uncrustify additional arguments: 
+[1.905s] -- Added test 'xmllint' to check XML markup files
+[1.907s] -- Configuring done
+[1.944s] -- Generating done
+[1.946s] -- Build files have been written to: /home/marlar/movelt_success/build/hardware_interface

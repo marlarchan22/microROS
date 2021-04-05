@@ -1,0 +1,40 @@
+[0.093s] Invoking command in '/home/marlar/movelt_success/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/marlar/movelt_success/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/srdfdom
+[0.179s] -- The CXX compiler identification is GNU 9.3.0
+[0.190s] -- Detecting CXX compiler ABI info
+[0.272s] -- Detecting CXX compiler ABI info - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.285s] -- Detecting CXX compile features
+[0.285s] -- Detecting CXX compile features - done
+[0.295s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[0.302s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.338s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.338s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.626s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.665s] -- Found tinyxml2_vendor: 0.7.3 (/opt/ros/foxy/share/tinyxml2_vendor/cmake)
+[0.683s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[0.759s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.764s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.813s] -- The C compiler identification is GNU 9.3.0
+[0.822s] -- Detecting C compiler ABI info
+[0.884s] -- Detecting C compiler ABI info - done
+[0.893s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.893s] -- Detecting C compile features
+[0.894s] -- Detecting C compile features - done
+[0.895s] CMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[0.895s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.895s]   CMake.
+[0.895s] 
+[0.895s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.895s]   CMake that the project does not need compatibility with older versions.
+[0.895s] 
+[0.895s] 
+[0.897s] -- Looking for C++ include pthread.h
+[0.966s] -- Looking for C++ include pthread.h - found
+[0.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.052s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.052s] -- Check if compiler accepts -pthread
+[1.122s] -- Check if compiler accepts -pthread - yes
+[1.123s] -- Found Threads: TRUE  
+[1.136s] -- Configuring done
+[1.146s] -- Generating done
+[1.147s] -- Build files have been written to: /home/marlar/movelt_success/build/srdfdom

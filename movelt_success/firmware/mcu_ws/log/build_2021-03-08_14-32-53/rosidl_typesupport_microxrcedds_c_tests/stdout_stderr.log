@@ -1,0 +1,35 @@
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/marlar/movelt_success/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_SHARED_LIBS
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/marlar/movelt_success/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests
+-- Install configuration: "Debug"
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.bash
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.zsh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/package.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig-version.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c_tests/package.xml

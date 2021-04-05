@@ -1,0 +1,41 @@
+[0.368s] Invoking command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_lint/ament_uncrustify': AMENT_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/uncrustify_vendor CMAKE_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/uncrustify_vendor PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify --record /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed
+[0.545s] running egg_info
+[0.546s] creating ../../../build/ament_uncrustify/ament_uncrustify.egg-info
+[0.546s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[0.546s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[0.546s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[0.546s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[0.547s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[0.547s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.571s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.571s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.572s] running build
+[0.572s] running build_py
+[0.572s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build
+[0.572s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib
+[0.572s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.572s] copying ament_uncrustify/__init__.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.572s] copying ament_uncrustify/main.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.573s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.573s] copying ament_uncrustify/configuration/ament_code_style.cfg -> /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.573s] running install
+[0.573s] running install_lib
+[0.574s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[0.574s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[0.574s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/configuration
+[0.574s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style.cfg -> /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/configuration
+[0.574s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[0.574s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/__init__.py to __init__.cpython-38.pyc
+[0.575s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/main.py to main.cpython-38.pyc
+[0.577s] running install_data
+[0.577s] copying package.xml -> /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/share/ament_uncrustify
+[0.577s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/share/ament_index
+[0.578s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index
+[0.578s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[0.578s] copying resource/ament_uncrustify -> /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[0.578s] running install_egg_info
+[0.579s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify-0.9.6-py3.8.egg-info
+[0.579s] running install_scripts
+[0.593s] Installing ament_uncrustify script to /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/bin
+[0.593s] writing list of installed files to '/home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/install.log'
+[0.617s] Invoked command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_lint/ament_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/uncrustify_vendor CMAKE_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/uncrustify_vendor PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_uncrustify --record /home/marlar/movelt/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed

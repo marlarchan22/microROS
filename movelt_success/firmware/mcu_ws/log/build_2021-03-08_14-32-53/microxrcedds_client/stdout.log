@@ -1,0 +1,106 @@
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marlar/movelt_success/firmware/mcu_ws/build/microxrcedds_client
+[  4%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj[0m
+[  8%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj[0m
+[ 12%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj[0m
+[ 16%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj[0m
+[ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj[0m
+[ 25%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj[0m
+[ 29%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj[0m
+[ 33%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj[0m
+[ 37%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj[0m
+[ 41%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj[0m
+[ 45%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj[0m
+[ 50%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj[0m
+[ 54%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj[0m
+[ 58%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj[0m
+[ 62%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj[0m
+[ 66%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj[0m
+[ 70%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj[0m
+[ 75%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj[0m
+[ 79%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj[0m
+[ 87%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj[0m
+[ 87%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj[0m
+[ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj[0m
+[ 95%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj[0m
+[100%] [32m[1mLinking C static library libmicroxrcedds_client.a[0m
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libmicroxrcedds_client.a CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libmicroxrcedds_client.a
+[100%] Built target microxrcedds_client
+-- Install configuration: "Debug"
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/lib/libmicroxrcedds_client.a
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/client.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/discovery
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/discovery/discovery.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/stream_framing
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/ip.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/custom
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/profile/transport/custom/custom_transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/util
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/util/time.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/util/ping.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/communication
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/communication/communication.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/type
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/type/xrce_types.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/session.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_ref.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/stream_id.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/reliable_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/seq_num.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/output_reliable_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/stream_storage.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/input_reliable_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/input_best_effort_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/stream/output_best_effort_stream.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/read_access.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_xml.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/object_id.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/common_create_entities.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/session_info.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/write_access.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/core/session/time_sync.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/defines.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/visibility.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/transport.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/uxr/client/config.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets-debug.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake

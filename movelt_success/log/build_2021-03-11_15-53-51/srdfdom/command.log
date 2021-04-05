@@ -1,0 +1,1 @@
+Invoking command in '/home/marlar/movelt_success/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/marlar/movelt_success/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/srdfdom

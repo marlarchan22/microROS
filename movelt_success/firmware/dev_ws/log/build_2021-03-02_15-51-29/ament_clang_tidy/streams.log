@@ -1,0 +1,41 @@
+[1.203s] Invoking command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8:/home/marlar/movelt/firmware/dev_ws/install/ament_lint PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy --record /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed
+[1.400s] running egg_info
+[1.401s] creating ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info
+[1.401s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[1.401s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[1.401s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[1.402s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[1.402s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[1.403s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.431s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.432s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.432s] running build
+[1.432s] running build_py
+[1.432s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build
+[1.432s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib
+[1.432s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.432s] copying ament_clang_tidy/__init__.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.432s] copying ament_clang_tidy/main.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.432s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration
+[1.433s] copying ament_clang_tidy/configuration/.clang-tidy -> /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration
+[1.433s] running install
+[1.433s] running install_lib
+[1.434s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.434s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/__init__.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.434s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/configuration
+[1.434s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration/.clang-tidy -> /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/configuration
+[1.434s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/main.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.434s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/__init__.py to __init__.cpython-38.pyc
+[1.435s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/main.py to main.cpython-38.pyc
+[1.438s] running install_data
+[1.438s] copying package.xml -> /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/share/ament_clang_tidy
+[1.438s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/share/ament_index
+[1.438s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index
+[1.438s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[1.439s] copying resource/ament_clang_tidy -> /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[1.439s] running install_egg_info
+[1.440s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy-0.9.6-py3.8.egg-info
+[1.441s] running install_scripts
+[1.457s] Installing ament_clang_tidy script to /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/bin
+[1.457s] writing list of installed files to '/home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/install.log'
+[1.677s] Invoked command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8:/home/marlar/movelt/firmware/dev_ws/install/ament_lint PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_clang_tidy --record /home/marlar/movelt/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -o test_parser  gtest/libgtest_main.a gtest/libgtest.a -pthread 

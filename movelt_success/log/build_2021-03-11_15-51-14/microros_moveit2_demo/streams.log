@@ -1,0 +1,39 @@
+[0.018s] Invoking command in '/home/marlar/movelt_success/build/microros_moveit2_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/marlar/movelt_success/micro-ROS_moveit2_demo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/microros_moveit2_demo
+[0.113s] -- The C compiler identification is GNU 9.3.0
+[0.217s] -- The CXX compiler identification is GNU 9.3.0
+[0.234s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.360s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.365s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.490s] -- Detecting CXX compile features
+[0.491s] -- Detecting CXX compile features - done
+[0.494s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.538s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.538s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.699s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.749s] CMake Error at CMakeLists.txt:15 (find_package):
+[0.749s]   By not providing "Findmoveit_ros_planning_interface.cmake" in
+[0.749s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.749s]   configuration file provided by "moveit_ros_planning_interface", but CMake
+[0.749s]   did not find one.
+[0.749s] 
+[0.750s]   Could not find a package configuration file provided by
+[0.750s]   "moveit_ros_planning_interface" with any of the following names:
+[0.750s] 
+[0.750s]     moveit_ros_planning_interfaceConfig.cmake
+[0.750s]     moveit_ros_planning_interface-config.cmake
+[0.750s] 
+[0.750s]   Add the installation prefix of "moveit_ros_planning_interface" to
+[0.751s]   CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory
+[0.751s]   containing one of the above files.  If "moveit_ros_planning_interface"
+[0.751s]   provides a separate development package or SDK, be sure it has been
+[0.752s]   installed.
+[0.753s] 
+[0.753s] 
+[0.754s] -- Configuring incomplete, errors occurred!
+[0.756s] See also "/home/marlar/movelt_success/build/microros_moveit2_demo/CMakeFiles/CMakeOutput.log".
+[0.758s] Invoked command in '/home/marlar/movelt_success/build/microros_moveit2_demo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/marlar/movelt_success/micro-ROS_moveit2_demo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/microros_moveit2_demo

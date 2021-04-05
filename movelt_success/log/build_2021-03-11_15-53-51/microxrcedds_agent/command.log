@@ -1,0 +1,1 @@
+Invoking command in '/home/marlar/movelt_success/build/microxrcedds_agent': /usr/bin/cmake /home/marlar/movelt_success/src/eProsima/Micro-XRCE-DDS-Agent -DCMAKE_BUILD_TYPE=Release -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_CLI_PROFILE=OFF -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/microxrcedds_agent

@@ -1,0 +1,6 @@
+Invoking command in '/home/marlar/movelt/build/microcdr': /usr/bin/cmake /home/marlar/movelt/src/eProsima/Micro-CDR -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt/install/microcdr
+Invoked command in '/home/marlar/movelt/build/microcdr' returned '0': /usr/bin/cmake /home/marlar/movelt/src/eProsima/Micro-CDR -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt/install/microcdr
+Invoking command in '/home/marlar/movelt/build/microcdr': /usr/bin/cmake --build /home/marlar/movelt/build/microcdr -- -j12 -l12
+Invoked command in '/home/marlar/movelt/build/microcdr' returned '0': /usr/bin/cmake --build /home/marlar/movelt/build/microcdr -- -j12 -l12
+Invoking command in '/home/marlar/movelt/build/microcdr': /usr/bin/cmake --install /home/marlar/movelt/build/microcdr
+Invoked command in '/home/marlar/movelt/build/microcdr' returned '0': /usr/bin/cmake --install /home/marlar/movelt/build/microcdr

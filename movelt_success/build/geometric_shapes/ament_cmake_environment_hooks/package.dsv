@@ -1,0 +1,4 @@
+source;share/geometric_shapes/local_setup.bash
+source;share/geometric_shapes/local_setup.dsv
+source;share/geometric_shapes/local_setup.sh
+source;share/geometric_shapes/local_setup.zsh

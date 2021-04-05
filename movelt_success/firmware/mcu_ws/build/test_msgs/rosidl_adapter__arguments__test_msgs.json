@@ -1,0 +1,22 @@
+{
+  "package_name": "test_msgs",
+  "non_idl_tuples": [
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/Arrays.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/BasicTypes.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/BoundedSequences.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/Constants.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/Defaults.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/Empty.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/MultiNested.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/Nested.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/Strings.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/UnboundedSequences.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:msg/WStrings.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:srv/Arrays.srv",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:srv/BasicTypes.srv",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:srv/Empty.srv",
+    "/home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files:action/Fibonacci.action",
+    "/home/marlar/movelt_success/firmware/mcu_ws/ros2/rcl_interfaces/test_msgs:msg/Builtins.msg",
+    "/home/marlar/movelt_success/firmware/mcu_ws/ros2/rcl_interfaces/test_msgs:action/NestedMessage.action"
+  ]
+}

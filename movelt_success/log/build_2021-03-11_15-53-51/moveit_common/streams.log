@@ -1,0 +1,11 @@
+[0.091s] Invoking command in '/home/marlar/movelt_success/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/marlar/movelt_success/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/moveit_common
+[0.140s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.144s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.144s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.425s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.513s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.515s] -- Added test 'lint_cmake' to check CMake code style
+[0.516s] -- Added test 'xmllint' to check XML markup files
+[0.518s] -- Configuring done
+[0.521s] -- Generating done
+[0.522s] -- Build files have been written to: /home/marlar/movelt_success/build/moveit_common

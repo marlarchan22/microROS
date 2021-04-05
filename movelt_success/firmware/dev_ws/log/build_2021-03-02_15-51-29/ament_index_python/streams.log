@@ -1,0 +1,52 @@
+[0.576s] Invoking command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_index/ament_index_python': AMENT_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8:/home/marlar/movelt/firmware/dev_ws/install/ament_lint PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_index_python build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_index_python --record /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/install.log --single-version-externally-managed
+[0.765s] running egg_info
+[0.765s] creating ../../../build/ament_index_python/ament_index_python.egg-info
+[0.766s] writing ../../../build/ament_index_python/ament_index_python.egg-info/PKG-INFO
+[0.766s] writing dependency_links to ../../../build/ament_index_python/ament_index_python.egg-info/dependency_links.txt
+[0.766s] writing entry points to ../../../build/ament_index_python/ament_index_python.egg-info/entry_points.txt
+[0.766s] writing requirements to ../../../build/ament_index_python/ament_index_python.egg-info/requires.txt
+[0.766s] writing top-level names to ../../../build/ament_index_python/ament_index_python.egg-info/top_level.txt
+[0.767s] writing manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[0.793s] reading manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[0.794s] writing manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[0.794s] running build
+[0.794s] running build_py
+[0.794s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build
+[0.795s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib
+[0.795s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[0.795s] copying ament_index_python/__init__.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[0.795s] copying ament_index_python/resources.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[0.795s] copying ament_index_python/search_paths.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[0.795s] copying ament_index_python/cli.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[0.795s] copying ament_index_python/packages.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[0.795s] copying ament_index_python/constants.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[0.795s] running install
+[0.796s] running install_lib
+[0.797s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[0.797s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/__init__.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[0.798s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/resources.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[0.798s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/search_paths.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[0.798s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/cli.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[0.798s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/packages.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[0.798s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/constants.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[0.798s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/__init__.py to __init__.cpython-38.pyc
+[0.799s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/resources.py to resources.cpython-38.pyc
+[0.799s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/search_paths.py to search_paths.cpython-38.pyc
+[0.799s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/cli.py to cli.cpython-38.pyc
+[0.800s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/packages.py to packages.cpython-38.pyc
+[0.800s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/constants.py to constants.cpython-38.pyc
+[0.800s] running install_data
+[0.801s] copying package.xml -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/share/ament_index_python
+[0.802s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/share/ament_index_python/environment
+[0.802s] copying completion/ament_index-argcomplete.bash -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/share/ament_index_python/environment
+[0.802s] copying completion/ament_index-argcomplete.zsh -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/share/ament_index_python/environment
+[0.802s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/share/ament_index
+[0.802s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/share/ament_index/resource_index
+[0.802s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/share/ament_index/resource_index/packages
+[0.802s] copying resource/ament_index_python -> /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/share/ament_index/resource_index/packages
+[0.802s] running install_egg_info
+[0.803s] Copying ../../../build/ament_index_python/ament_index_python.egg-info to /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages/ament_index_python-1.0.2-py3.8.egg-info
+[0.804s] running install_scripts
+[0.820s] Installing ament_index script to /home/marlar/movelt/firmware/dev_ws/install/ament_index_python/bin
+[0.820s] writing list of installed files to '/home/marlar/movelt/firmware/dev_ws/build/ament_index_python/install.log'
+[0.854s] Invoked command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_index/ament_index_python' returned '0': AMENT_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8:/home/marlar/movelt/firmware/dev_ws/install/ament_lint PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_index_python/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_index_python build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_index_python --record /home/marlar/movelt/firmware/dev_ws/build/ament_index_python/install.log --single-version-externally-managed

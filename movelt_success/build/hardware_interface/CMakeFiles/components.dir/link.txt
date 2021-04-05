@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libcomponents.so -o libcomponents.so CMakeFiles/components.dir/src/components/joint.cpp.o CMakeFiles/components.dir/src/components/sensor.cpp.o 

@@ -1,0 +1,6 @@
+Invoking command in '/home/marlar/movelt/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake /home/marlar/movelt/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt/firmware/dev_ws/install/gtest_vendor
+Invoked command in '/home/marlar/movelt/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /home/marlar/movelt/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt/firmware/dev_ws/install/gtest_vendor
+Invoking command in '/home/marlar/movelt/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --build /home/marlar/movelt/firmware/dev_ws/build/gtest_vendor -- -j12 -l12
+Invoked command in '/home/marlar/movelt/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/marlar/movelt/firmware/dev_ws/build/gtest_vendor -- -j12 -l12
+Invoking command in '/home/marlar/movelt/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --install /home/marlar/movelt/firmware/dev_ws/build/gtest_vendor
+Invoked command in '/home/marlar/movelt/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/marlar/movelt/firmware/dev_ws/build/gtest_vendor

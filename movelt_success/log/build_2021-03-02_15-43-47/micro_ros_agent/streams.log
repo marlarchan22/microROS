@@ -1,0 +1,69 @@
+[0.020s] Invoking command in '/home/marlar/movelt/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:/home/marlar/movelt/install/microxrcedds_agent:/home/marlar/movelt/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/movelt/install/micro_ros_msgs/lib:/home/marlar/movelt/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/movelt/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/marlar/movelt/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt/install/micro_ros_agent
+[0.024s] Not searching for unused variables given on the command line.
+[0.126s] -- The CXX compiler identification is GNU 9.3.0
+[0.145s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.303s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.303s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.604s] -- Looking for C++ include pthread.h
+[0.710s] -- Looking for C++ include pthread.h - found
+[0.710s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.839s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.839s] -- Looking for pthread_create in pthreads
+[0.957s] -- Looking for pthread_create in pthreads - not found
+[0.957s] -- Looking for pthread_create in pthread
+[1.082s] -- Looking for pthread_create in pthread - found
+[1.083s] -- Found Threads: TRUE  
+[1.086s] -- Found rosidl_cmake: 1.2.0 (/opt/ros/foxy/share/rosidl_cmake/cmake)
+[1.087s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.106s] -- Found fastrtps_cmake_module: 1.0.2 (/opt/ros/foxy/share/fastrtps_cmake_module/cmake)
+[1.107s] -- Found rmw_dds_common: 1.0.2 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+[1.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.180s] -- Found FastRTPS: /home/marlar/movelt/install/microxrcedds_agent/include  
+[1.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.258s] -- Found rmw_fastrtps_shared_cpp: 1.2.4 (/opt/ros/foxy/share/rmw_fastrtps_shared_cpp/cmake)
+[1.300s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.302s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.302s] -- Found micro_ros_msgs: 0.0.1 (/home/marlar/movelt/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[1.383s] -- Configuring done
+[1.395s] -- Generating done
+[1.396s] -- Build files have been written to: /home/marlar/movelt/build/micro_ros_agent
+[1.406s] Invoked command in '/home/marlar/movelt/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:/home/marlar/movelt/install/microxrcedds_agent:/home/marlar/movelt/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/movelt/install/micro_ros_msgs/lib:/home/marlar/movelt/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/movelt/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/marlar/movelt/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt/install/micro_ros_agent
+[1.410s] Invoking command in '/home/marlar/movelt/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:/home/marlar/movelt/install/microxrcedds_agent:/home/marlar/movelt/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/movelt/install/micro_ros_msgs/lib:/home/marlar/movelt/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/movelt/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marlar/movelt/build/micro_ros_agent -- -j12 -l12
+[1.455s] [ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[1.457s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[1.457s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[1.458s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[1.458s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[4.395s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[4.639s] /usr/bin/ld: warning: libfastrtps.so.2, needed by /opt/ros/foxy/lib/librmw_fastrtps_shared_cpp.so, may conflict with libfastrtps.so.2.0.2
+[4.647s] [100%] Built target micro_ros_agent
+[4.657s] Invoked command in '/home/marlar/movelt/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:/home/marlar/movelt/install/microxrcedds_agent:/home/marlar/movelt/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/movelt/install/micro_ros_msgs/lib:/home/marlar/movelt/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/movelt/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marlar/movelt/build/micro_ros_agent -- -j12 -l12
+[4.708s] Invoking command in '/home/marlar/movelt/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:/home/marlar/movelt/install/microxrcedds_agent:/home/marlar/movelt/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/movelt/install/micro_ros_msgs/lib:/home/marlar/movelt/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/movelt/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/marlar/movelt/build/micro_ros_agent
+[4.716s] -- Install configuration: ""
+[4.716s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[4.717s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[4.717s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[4.717s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[4.717s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[4.717s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[4.718s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[4.718s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[4.718s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[4.718s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[4.719s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[4.719s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[4.719s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.719s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[4.720s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[4.720s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[4.720s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[4.723s] -- Set runtime path of "/home/marlar/movelt/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[4.723s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/launch
+[4.723s] -- Installing: /home/marlar/movelt/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[4.729s] Invoked command in '/home/marlar/movelt/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/movelt/install/micro_ros_msgs:/home/marlar/movelt/install/microxrcedds_agent:/home/marlar/movelt/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/movelt/install/micro_ros_msgs/lib:/home/marlar/movelt/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/movelt/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/marlar/movelt/build/micro_ros_agent

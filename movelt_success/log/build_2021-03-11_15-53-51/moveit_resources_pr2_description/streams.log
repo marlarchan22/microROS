@@ -1,0 +1,19 @@
+[0.083s] Invoking command in '/home/marlar/movelt_success/build/moveit_resources_pr2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/marlar/movelt_success/moveit_resources/pr2_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/moveit_resources_pr2_description
+[0.481s] -- The C compiler identification is GNU 9.3.0
+[0.481s] -- The CXX compiler identification is GNU 9.3.0
+[0.481s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.481s] -- Detecting C compile features
+[0.481s] -- Detecting C compile features - done
+[0.481s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.482s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.482s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.482s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.482s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.708s] -- Configuring done
+[0.714s] -- Generating done
+[0.715s] -- Build files have been written to: /home/marlar/movelt_success/build/moveit_resources_pr2_description

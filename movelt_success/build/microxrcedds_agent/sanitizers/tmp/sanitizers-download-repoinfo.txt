@@ -1,0 +1,5 @@
+method=git
+repository=https://github.com/arsenm/sanitizers-cmake
+remote=origin
+source_dir=/home/marlar/movelt/build/microxrcedds_agent/sanitizers/src/sanitizers
+

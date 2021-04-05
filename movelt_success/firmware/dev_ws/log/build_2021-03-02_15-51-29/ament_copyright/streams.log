@@ -1,0 +1,96 @@
+[0.319s] Invoking command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_pep257:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8:/home/marlar/movelt/firmware/dev_ws/install/ament_lint PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_copyright --record /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed
+[0.522s] running egg_info
+[0.523s] creating ../../../build/ament_copyright/ament_copyright.egg-info
+[0.523s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[0.523s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[0.523s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[0.523s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[0.523s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[0.523s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.550s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.553s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.556s] running build_py
+[0.557s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build
+[0.560s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib
+[0.561s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.561s] copying ament_copyright/__init__.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.561s] copying ament_copyright/crawler.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.564s] copying ament_copyright/licenses.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.564s] copying ament_copyright/pytest_marker.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.565s] copying ament_copyright/main.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.565s] copying ament_copyright/copyright_names.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.565s] copying ament_copyright/parser.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.565s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.565s] copying ament_copyright/template/gplv3_header.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.565s] copying ament_copyright/template/bsd_3clause_header.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.565s] copying ament_copyright/template/apache2_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.565s] copying ament_copyright/template/bsd2_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.565s] copying ament_copyright/template/bsd2_license.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.566s] copying ament_copyright/template/mit_header.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.566s] copying ament_copyright/template/boost1_license.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.571s] copying ament_copyright/template/bsd_3clause_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.571s] copying ament_copyright/template/bsd2_header.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.574s] copying ament_copyright/template/boost1_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.574s] copying ament_copyright/template/lgplv3_header.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.574s] copying ament_copyright/template/boost1_header.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.574s] copying ament_copyright/template/apache2_license.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.574s] copying ament_copyright/template/bsd_3clause_license.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.574s] copying ament_copyright/template/mit_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.574s] copying ament_copyright/template/lgplv3_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.576s] copying ament_copyright/template/apache2_header.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.578s] copying ament_copyright/template/mit_license.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.579s] copying ament_copyright/template/gplv3_license.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.579s] copying ament_copyright/template/lgplv3_license.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.579s] copying ament_copyright/template/gplv3_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.579s] running install
+[0.579s] running install_lib
+[0.579s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[0.580s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.580s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_header.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.580s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.580s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.580s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.580s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_license.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.583s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.584s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_license.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.584s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.584s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_header.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.584s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.584s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_header.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.585s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_header.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.585s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_license.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.586s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_license.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.587s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.587s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.587s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_header.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.587s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_license.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.587s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_license.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.588s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_license.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.588s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_contributing.txt -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[0.588s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/__init__.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[0.591s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/crawler.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[0.592s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/licenses.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[0.592s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/pytest_marker.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[0.592s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/main.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[0.593s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/copyright_names.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[0.594s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/parser.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[0.595s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/__init__.py to __init__.cpython-38.pyc
+[0.600s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/crawler.py to crawler.cpython-38.pyc
+[0.600s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/licenses.py to licenses.cpython-38.pyc
+[0.600s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/pytest_marker.py to pytest_marker.cpython-38.pyc
+[0.600s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/main.py to main.cpython-38.pyc
+[0.601s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/copyright_names.py to copyright_names.cpython-38.pyc
+[0.601s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/parser.py to parser.cpython-38.pyc
+[0.601s] running install_data
+[0.601s] copying package.xml -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/share/ament_copyright
+[0.601s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/share/ament_index
+[0.601s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index
+[0.601s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[0.601s] copying resource/ament_copyright -> /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[0.601s] running install_egg_info
+[0.602s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright-0.9.6-py3.8.egg-info
+[0.602s] running install_scripts
+[0.608s] Installing ament_copyright script to /home/marlar/movelt/firmware/dev_ws/install/ament_copyright/bin
+[0.608s] writing list of installed files to '/home/marlar/movelt/firmware/dev_ws/build/ament_copyright/install.log'
+[0.627s] Invoked command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_pep257:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8:/home/marlar/movelt/firmware/dev_ws/install/ament_lint PATH=/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/bin:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/marlar/movelt/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_copyright --record /home/marlar/movelt/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed

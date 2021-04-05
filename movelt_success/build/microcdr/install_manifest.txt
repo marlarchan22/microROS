@@ -1,0 +1,8 @@
+/home/marlar/movelt/install/microcdr/lib/libmicrocdr.a
+/home/marlar/movelt/install/microcdr/include/ucdr/microcdr.h
+/home/marlar/movelt/install/microcdr/include/ucdr/visibility.h
+/home/marlar/movelt/install/microcdr/include/ucdr/config.h
+/home/marlar/movelt/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+/home/marlar/movelt/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/marlar/movelt/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+/home/marlar/movelt/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake

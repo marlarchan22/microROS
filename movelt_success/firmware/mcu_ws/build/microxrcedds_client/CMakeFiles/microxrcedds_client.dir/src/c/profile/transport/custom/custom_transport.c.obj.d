@@ -1,0 +1,21 @@
+CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj: \
+ /home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/custom_transport.c \
+ /home/marlar/movelt_success/firmware/build/zephyr/include/generated/autoconf.h \
+ /home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain/zephyr_stdint.h \
+ /home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/custom/custom_transport.h \
+ /home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/communication/communication.h \
+ /home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/newlib.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/_newlib_version.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_stdint.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/_default_types.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/features.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/9.2.0/include/stdint.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/9.2.0/include/stdint-gcc.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/9.2.0/include/stddef.h \
+ /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/9.2.0/include/stdbool.h \
+ /home/marlar/movelt_success/firmware/mcu_ws/build/microxrcedds_client/include/uxr/client/config.h \
+ /home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h \
+ /home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/visibility.h \
+ /home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/../stream_framing/stream_framing_protocol.h \
+ /home/marlar/movelt_success/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/util/time.h

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o -o test_component_parser  gmock/libgmock_main.a gmock/libgmock.a libcomponent_parser.a /usr/lib/x86_64-linux-gnu/libtinyxml2.so -pthread 

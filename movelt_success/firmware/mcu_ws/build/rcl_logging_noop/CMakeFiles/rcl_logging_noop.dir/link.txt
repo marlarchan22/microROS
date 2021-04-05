@@ -1,0 +1,2 @@
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc librcl_logging_noop.a CMakeFiles/rcl_logging_noop.dir/src/rcl_logging_noop/rcl_logging_noop.cpp.obj
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib librcl_logging_noop.a

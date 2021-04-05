@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+/home/marlar/movelt/build/microxrcedds_agent/CMakeFiles/spdlog
+/home/marlar/movelt/build/microxrcedds_agent/CMakeFiles/spdlog.rule
+/home/marlar/movelt/build/microxrcedds_agent/CMakeFiles/spdlog-complete.rule
+/home/marlar/movelt/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-build.rule
+/home/marlar/movelt/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-configure.rule
+/home/marlar/movelt/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-download.rule
+/home/marlar/movelt/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-install.rule
+/home/marlar/movelt/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-mkdir.rule
+/home/marlar/movelt/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-patch.rule
+/home/marlar/movelt/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-update.rule

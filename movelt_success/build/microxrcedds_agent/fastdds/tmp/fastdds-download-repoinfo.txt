@@ -1,0 +1,5 @@
+method=git
+repository=https://github.com/eProsima/Fast-DDS.git
+remote=origin
+source_dir=/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds
+

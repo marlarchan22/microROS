@@ -1,0 +1,2 @@
+Invoking command in '/home/marlar/movelt_success/build/microcdr': /usr/bin/cmake /home/marlar/movelt_success/src/eProsima/Micro-CDR -DCMAKE_BUILD_TYPE=Release -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/microcdr
+Invoked command in '/home/marlar/movelt_success/build/microcdr' returned '1': /usr/bin/cmake /home/marlar/movelt_success/src/eProsima/Micro-CDR -DCMAKE_BUILD_TYPE=Release -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/microcdr

@@ -1,0 +1,53 @@
+[0.020s] Invoking command in '/home/marlar/movelt/build/microcdr': /usr/bin/cmake /home/marlar/movelt/src/eProsima/Micro-CDR -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt/install/microcdr
+[0.031s] Not searching for unused variables given on the command line.
+[0.031s] -- Setting build type to 'Release' as none was specified.
+[0.121s] -- The C compiler identification is GNU 9.3.0
+[0.132s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.319s] -- The CXX compiler identification is GNU 9.3.0
+[0.331s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.441s] -- Detecting CXX compile features
+[0.441s] -- Detecting CXX compile features - done
+[0.452s] -- Configuring done
+[0.454s] -- Generating done
+[0.454s] -- Build files have been written to: /home/marlar/movelt/build/microcdr
+[0.458s] Invoked command in '/home/marlar/movelt/build/microcdr' returned '0': /usr/bin/cmake /home/marlar/movelt/src/eProsima/Micro-CDR -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt/install/microcdr
+[0.464s] Invoking command in '/home/marlar/movelt/build/microcdr': /usr/bin/cmake --build /home/marlar/movelt/build/microcdr -- -j12 -l12
+[0.506s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[0.518s] [ 25%] [34m[1mSkipping download step (SOURCE_DIR given) for 'ucdr'[0m
+[0.531s] [ 37%] [34m[1mGenerating ucdr-prefix/src/ucdr-stamp/ucdr-update[0m
+[0.545s] [ 50%] [34m[1mSkipping patch step (no custom command) for 'ucdr'[0m
+[0.559s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[0.567s] loading initial cache file /home/marlar/movelt/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[0.582s] -- Configuring done
+[0.585s] -- Generating done
+[0.586s] -- Build files have been written to: /home/marlar/movelt/build/microcdr
+[0.599s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[0.635s] [ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[0.638s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[0.638s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[0.638s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[0.639s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[0.854s] [100%] [32m[1mLinking C static library libmicrocdr.a[0m
+[0.882s] [100%] Built target microcdr
+[0.903s] [34m[1mNo install step for 'ucdr'[0m
+[0.922s] [34m[1mCompleted 'ucdr'[0m
+[0.948s] Built target ucdr
+[0.958s] Invoked command in '/home/marlar/movelt/build/microcdr' returned '0': /usr/bin/cmake --build /home/marlar/movelt/build/microcdr -- -j12 -l12
+[1.018s] Invoking command in '/home/marlar/movelt/build/microcdr': /usr/bin/cmake --install /home/marlar/movelt/build/microcdr
+[1.023s] -- Install configuration: "Release"
+[1.024s] -- Installing: /home/marlar/movelt/install/microcdr/lib/libmicrocdr.a
+[1.024s] -- Installing: /home/marlar/movelt/install/microcdr/include/ucdr
+[1.024s] -- Installing: /home/marlar/movelt/install/microcdr/include/ucdr/microcdr.h
+[1.024s] -- Installing: /home/marlar/movelt/install/microcdr/include/ucdr/visibility.h
+[1.025s] -- Installing: /home/marlar/movelt/install/microcdr/include/ucdr/config.h
+[1.025s] -- Installing: /home/marlar/movelt/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[1.025s] -- Installing: /home/marlar/movelt/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[1.025s] -- Installing: /home/marlar/movelt/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[1.026s] -- Installing: /home/marlar/movelt/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.030s] Invoked command in '/home/marlar/movelt/build/microcdr' returned '0': /usr/bin/cmake --install /home/marlar/movelt/build/microcdr

@@ -1,0 +1,536 @@
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_ros: 0.9.1 (/home/marlar/movelt_success/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rcutils: 1.1.2 (/home/marlar/movelt_success/firmware/mcu_ws/install/share/rcutils/cmake)
+CMake Warning at /home/marlar/movelt_success/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  CMakeLists.txt:27 (find_package)
+
+
+-- Found rosidl_runtime_c: 1.2.0 (/home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake)
+-- Found rmw: 1.0.2 (/home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw/cmake)
+-- Found rosidl_typesupport_microxrcedds_c: 0.0.1 (/home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/cmake)
+-- Found rosidl_adapter: 1.2.0 (/home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+CMake Warning at CMakeLists.txt:186 (find_package):
+  By not providing "Findrosidl_typesupport_microxrcedds_cpp.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "rosidl_typesupport_microxrcedds_cpp", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosidl_typesupport_microxrcedds_cpp" with any of the following names:
+
+    rosidl_typesupport_microxrcedds_cppConfig.cmake
+    rosidl_typesupport_microxrcedds_cpp-config.cmake
+
+  Add the installation prefix of "rosidl_typesupport_microxrcedds_cpp" to
+  CMAKE_PREFIX_PATH or set "rosidl_typesupport_microxrcedds_cpp_DIR" to a
+  directory containing one of the above files.  If
+  "rosidl_typesupport_microxrcedds_cpp" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/marlar/movelt_success/firmware/mcu_ws/build/rmw_microxrcedds
+[  8%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/memory.c.obj[0m
+[ 10%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_compare_gids_equal.c.obj[0m
+[  8%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_client.c.obj[0m
+[  8%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/identifiers.c.obj[0m
+[ 13%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_event.c.obj[0m
+[ 16%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_count.c.obj[0m
+[ 18%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_gid_for_publisher.c.obj[0m
+[ 21%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_implementation_identifier.c.obj[0m
+[ 24%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_serialization_format.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_get_gid_for_publisher.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_count.c:22[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_client.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 27%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_topic_endpoint_info.c.obj[0m
+[ 29%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_guard_condition.c.obj[0m
+[ 32%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_init.c.obj[0m
+[ 35%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_logging.c.obj[0m
+[ 37%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microxrcedds_topic.c.obj[0m
+[ 40%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_get_implementation_identifier.c:16[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:12[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:113:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+  113 | #[01;35m[Kinclude_next[m[K <time.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain.h:41[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:19[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain/gcc.h:62:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+   62 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert(EXPR, "" MSG)
+      |                               [01;35m[K^~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sched_priq.h:10[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:23[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/dlist.h:35:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   35 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/dlist.h:39:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   39 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/sys/dlist.h:31:8:[m[K [01;35m[Kwarning: [m[Kstruct has no named members [[01;35m[K-Wpedantic[m[K]
+   31 | struct [01;35m[K_dnode[m[K {
+      |        [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:29[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/mempool_heap.h:27:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   27 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/mempool_heap.h:23:8:[m[K [01;35m[Kwarning: [m[Kstruct has no named members [[01;35m[K-Wpedantic[m[K]
+   23 | struct [01;35m[Kk_mem_block[m[K {
+      |        [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_get_serialization_format.c:16[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_get_topic_endpoint_info.c:26[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/arch.h:26[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/cpu.h:19[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:33[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:92:36:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   92 |   sys_define_gpr_with_alias(a1, r0)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:93:36:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   93 |   sys_define_gpr_with_alias(a2, r1)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:94:36:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   94 |   sys_define_gpr_with_alias(a3, r2)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:95:36:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   95 |   sys_define_gpr_with_alias(a4, r3)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:96:37:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   96 |   sys_define_gpr_with_alias(ip, r12)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:97:37:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   97 |   sys_define_gpr_with_alias(lr, r14)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/arch/arm/aarch32/exc.h:98:37:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   98 |   sys_define_gpr_with_alias(pc, r15)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+[ 43%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node_info_and_types.c.obj[0m
+[ 45%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node_names.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_guard_condition.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./rmw_microxrcedds_topic.h:21[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microxrcedds_topic.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 48%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_publish.c.obj[0m
+[ 51%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_request.c.obj[0m
+[ 54%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_publisher.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 56%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_response.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node_names.c:24[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node_info_and_types.c:22[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 59%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_serialize.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_publish.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 62%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service_server_is_available.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/app_memory/mem_domain.h:15[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel_includes.h:40[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel/thread.h:45:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   45 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel/thread.h:81:4:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   81 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel/thread.h:83:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+   83 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:1657:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 1657 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[ 64%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service.c.obj[0m
+[ 67%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service_names_and_types.c.obj[0m
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_init[m[K':
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:2738:12:[m[K [01;35m[Kwarning: [m[KISO C forbids empty initializer braces [[01;35m[K-Wpedantic[m[K]
+ 2738 |    .node = [01;35m[K{[m[K},\
+      |            [01;35m[K^[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:2773:33:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_DELAYED_WORK_INITIALIZER[m[K'
+ 2773 |  *work = (struct k_delayed_work)[01;36m[KZ_DELAYED_WORK_INITIALIZER[m[K(handler);
+      |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:3283:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 3283 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/kernel.h:4551:3:[m[K [01;35m[Kwarning: [m[KISO C99 doesn't support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 4551 |  }[01;35m[K;[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_publisher.c:17[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 70%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_subscription.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_response.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 72%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_take.c.obj[0m
+[ 75%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_topic_names_and_types.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:17[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_service.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_request.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_service_names_and_types.c:22[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 78%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_trigger_guard_condition.c.obj[0m
+[ 81%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_uros_options.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_subscription.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 83%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_wait.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_take.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_topic_names_and_types.c:22[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_trigger_guard_condition.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 86%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/types.c.obj[0m
+[ 89%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/utils.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_uros_options.c:17[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 91%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_wait_set.c.obj[0m
+[ 94%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/callbacks.c.obj[0m
+[ 97%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_uxrce_transports.c.obj[0m
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_wait.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_wait_set.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.c:49:26:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+   49 | rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.c:52:21:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+   52 | rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.c:55:21:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+   55 | rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                     [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./callbacks.h:18[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/callbacks.c:15[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./rmw_uxrce_transports.h:17[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_uxrce_transports.c:14[m[K:
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:239:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  239 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:242:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  242 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlar/movelt_success/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:245:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  245 | extern rmw_uxrce_client_t  [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking C static library librmw_microxrcedds.a[0m
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc librmw_microxrcedds.a CMakeFiles/rmw_microxrcedds.dir/src/identifiers.c.obj CMakeFiles/rmw_microxrcedds.dir/src/memory.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_client.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_compare_gids_equal.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_count.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_event.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_gid_for_publisher.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_implementation_identifier.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_serialization_format.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_topic_endpoint_info.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_guard_condition.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_init.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_logging.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_microxrcedds_topic.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_node.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_node_info_and_types.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_node_names.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_publish.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_publisher.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_request.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_response.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_serialize.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_service.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_service_names_and_types.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_service_server_is_available.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_subscription.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_take.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_topic_names_and_types.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_trigger_guard_condition.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_uros_options.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_wait.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_wait_set.c.obj CMakeFiles/rmw_microxrcedds.dir/src/types.c.obj CMakeFiles/rmw_microxrcedds.dir/src/utils.c.obj CMakeFiles/rmw_microxrcedds.dir/src/callbacks.c.obj CMakeFiles/rmw_microxrcedds.dir/src/rmw_uxrce_transports.c.obj
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib librmw_microxrcedds.a
+[100%] Built target rmw_microxrcedds
+-- Install configuration: "Debug"
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/environment/library_path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/environment/library_path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/rmw_typesupport_c/rmw_microxrcedds
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/rmw_typesupport/rmw_microxrcedds
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rmw_microxrcedds
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rmw_microxrcedds
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/environment/ament_prefix_path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/environment/ament_prefix_path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/environment/path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/environment/path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/local_setup.bash
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/local_setup.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/local_setup.zsh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/local_setup.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/package.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rmw_microxrcedds
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig-version.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw_microxrcedds/package.xml
+-- Up-to-date: /home/marlar/movelt_success/firmware/mcu_ws/install/include
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/rmw_microxrcedds_c
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/rmw_microxrcedds_c/rmw_c_macros.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/rmw_uros
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/rmw_uros/options.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/include/rmw_microxrcedds_c/config.h
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/lib/librmw_microxrcedds.a

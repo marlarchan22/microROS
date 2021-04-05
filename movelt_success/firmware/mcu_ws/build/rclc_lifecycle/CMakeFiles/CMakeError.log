@@ -1,0 +1,311 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+Build flags: -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include;-I/home/marlar/movelt_success/firmware/build/zephyr/include/generated;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/stm32l4;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/drivers;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/common/.;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/common;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/cmsis/CMSIS/Core/Include;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/st/sensor/vl53l0x/api/core/inc;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/drivers/sensor/vl53l0x;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/soc;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include/Legacy;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/common_ll/include;-DKERNEL;-D__ZEPHYR__=1;-D_FORTIFY_SOURCE=2;-DBUILD_VERSION=zephyr-v2.5.0-611-g48321ef2525c;-D__LINUX_ERRNO_EXTENSIONS__;-D__PROGRAM_START;-DSTM32L475xx;-DUSE_HAL_DRIVER;-DUSE_FULL_LL_DRIVER;-DCORE_CM4;-Os;-imacros;/home/marlar/movelt_success/firmware/build/zephyr/include/generated/autoconf.h;-ffreestanding;-fno-common;-g;-mcpu=cortex-m4;-mthumb;-mabi=aapcs;-imacros;/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain/zephyr_stdint.h;-Wall;-Wformat;-Wformat-security;-Wno-format-zero-length;-Wno-main;-Wno-pointer-sign;-Wpointer-arith;-Wexpansion-to-defined;-Wno-address-of-packed-member;-Wno-unused-but-set-variable;-Werror=implicit-int;-fno-asynchronous-unwind-tables;-fno-pie;-fno-pic;-fno-strict-overflow;-fno-reorder-functions;-fno-defer-pop;-fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyr_apps/apps/attitude_estimator1=CMAKE_SOURCE_DIR;-fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyrproject/zephyr=ZEPHYR_BASE;-fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyrproject=WEST_TOPDIR;-ffunction-sections;-fdata-sections;-std=c99
+Id flags:  
+
+The output was:
+1
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/9.2.0/../../../../arm-zephyr-eabi/bin/ld: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/9.2.0/../../../../arm-zephyr-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x30): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+Build flags: -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include;-I/home/marlar/movelt_success/firmware/build/zephyr/include/generated;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/stm32l4;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/drivers;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/common/.;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/common;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/cmsis/CMSIS/Core/Include;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/st/sensor/vl53l0x/api/core/inc;-I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/drivers/sensor/vl53l0x;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/soc;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include/Legacy;-I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/common_ll/include;-DKERNEL;-D__ZEPHYR__=1;-D_FORTIFY_SOURCE=2;-DBUILD_VERSION=zephyr-v2.5.0-611-g48321ef2525c;-D__LINUX_ERRNO_EXTENSIONS__;-D__PROGRAM_START;-DSTM32L475xx;-DUSE_HAL_DRIVER;-DUSE_FULL_LL_DRIVER;-DCORE_CM4;-Os;-fcheck-new;-std=c++11;-Wno-register;-fno-exceptions;-fno-rtti;-imacros;/home/marlar/movelt_success/firmware/build/zephyr/include/generated/autoconf.h;-ffreestanding;-fno-common;-g;-mcpu=cortex-m4;-mthumb;-mabi=aapcs;-imacros;/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain/zephyr_stdint.h;-Wall;-Wformat;-Wformat-security;-Wno-format-zero-length;-Wno-main;-Wpointer-arith;-Wexpansion-to-defined;-Wno-address-of-packed-member;-Wno-unused-but-set-variable;-fno-asynchronous-unwind-tables;-fno-pie;-fno-pic;-fno-strict-overflow;-fno-reorder-functions;-fno-defer-pop;-fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyr_apps/apps/attitude_estimator1=CMAKE_SOURCE_DIR;-fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyrproject/zephyr=ZEPHYR_BASE;-fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyrproject=WEST_TOPDIR;-ffunction-sections;-fdata-sections
+Id flags:  
+
+The output was:
+1
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/9.2.0/../../../../arm-zephyr-eabi/bin/ld: /home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/9.2.0/../../../../arm-zephyr-eabi/lib/thumb/v7e-m/nofp/libg.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x30): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /home/marlar/movelt_success/firmware/mcu_ws/build/rclc_lifecycle/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_86cce/fast && make[4]: Entering directory '/home/marlar/movelt_success/firmware/mcu_ws/build/rclc_lifecycle/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_86cce.dir/build.make CMakeFiles/cmTC_86cce.dir/build
+make[5]: Entering directory '/home/marlar/movelt_success/firmware/mcu_ws/build/rclc_lifecycle/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86cce.dir/CheckIncludeFile.c.obj
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc --sysroot=/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../..   -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include -I/home/marlar/movelt_success/firmware/build/zephyr/include/generated -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/stm32l4 -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/drivers -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/common/. -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/common -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/cmsis/CMSIS/Core/Include -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/st/sensor/vl53l0x/api/core/inc -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/drivers/sensor/vl53l0x -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/soc -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include/Legacy -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/common_ll/include -DKERNEL -D__ZEPHYR__=1 -D_FORTIFY_SOURCE=2 -DBUILD_VERSION=zephyr-v2.5.0-611-g48321ef2525c -D__LINUX_ERRNO_EXTENSIONS__ -D__PROGRAM_START -DSTM32L475xx -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER -DCORE_CM4 -Os -imacros /home/marlar/movelt_success/firmware/build/zephyr/include/generated/autoconf.h -ffreestanding -fno-common -g -mcpu=cortex-m4 -mthumb -mabi=aapcs -imacros /home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain/zephyr_stdint.h -Wall -Wformat -Wformat-security -Wno-format-zero-length -Wno-main -Wno-pointer-sign -Wpointer-arith -Wexpansion-to-defined -Wno-address-of-packed-member -Wno-unused-but-set-variable -Werror=implicit-int -fno-asynchronous-unwind-tables -fno-pie -fno-pic -fno-strict-overflow -fno-reorder-functions -fno-defer-pop -fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyr_apps/apps/attitude_estimator1=CMAKE_SOURCE_DIR -fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyrproject/zephyr=ZEPHYR_BASE -fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyrproject=WEST_TOPDIR -ffunction-sections -fdata-sections -std=c99 -c -I/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix -I/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../build/zephyr/include/generated -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/include -I/home/marlar/movelt_success/firmware/build/zephyr/include/generated -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/stm32l4 -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/drivers -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/common/. -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/soc/arm/st_stm32/common -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/cmsis/CMSIS/Core/Include -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/st/sensor/vl53l0x/api/core/inc -I/home/marlar/movelt_success/firmware/zephyrproject/zephyr/drivers/sensor/vl53l0x -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/soc -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include/Legacy -I/home/marlar/movelt_success/firmware/zephyrproject/modules/hal/stm32/stm32cube/common_ll/include -DKERNEL -D__ZEPHYR__=1 -D_FORTIFY_SOURCE=2 -DBUILD_VERSION=zephyr-v2.5.0-611-g48321ef2525c -D__LINUX_ERRNO_EXTENSIONS__ -D__PROGRAM_START -DSTM32L475xx -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER -DCORE_CM4 -Os -imacros /home/marlar/movelt_success/firmware/build/zephyr/include/generated/autoconf.h -ffreestanding -fno-common -g -mcpu=cortex-m4 -mthumb -mabi=aapcs -imacros /home/marlar/movelt_success/firmware/zephyrproject/zephyr/include/toolchain/zephyr_stdint.h -Wall -Wformat -Wformat-security -Wno-format-zero-length -Wno-main -Wno-pointer-sign -Wpointer-arith -Wexpansion-to-defined -Wno-address-of-packed-member -Wno-unused-but-set-variable -Werror=implicit-int -fno-asynchronous-unwind-tables -fno-pie -fno-pic -fno-strict-overflow -fno-reorder-functions -fno-defer-pop -fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyr_apps/apps/attitude_estimator1=CMAKE_SOURCE_DIR -fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyrproject/zephyr=ZEPHYR_BASE -fmacro-prefix-map=/home/marlar/movelt_success/firmware/zephyrproject=WEST_TOPDIR -ffunction-sections -fdata-sections -std=c99  -o CMakeFiles/cmTC_86cce.dir/CheckIncludeFile.c.obj -c /home/marlar/movelt_success/firmware/mcu_ws/build/rclc_lifecycle/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /home/marlar/movelt_success/firmware/mcu_ws/build/rclc_lifecycle/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:47:2: error: unknown type name 'pthread_mutex_t'
+   47 |  pthread_mutex_t cancel_lock;
+      |  ^~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:51:2: error: unknown type name 'pthread_mutex_t'
+   51 |  pthread_mutex_t state_lock;
+      |  ^~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:52:2: error: unknown type name 'pthread_cond_t'
+   52 |  pthread_cond_t state_cond;
+      |  ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:86:37: error: unknown type name 'pthread_cond_t'
+   86 | static inline int pthread_cond_init(pthread_cond_t *cv,
+      |                                     ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:87:15: error: unknown type name 'pthread_condattr_t'
+   87 |         const pthread_condattr_t *att)
+      |               ^~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:99:40: error: unknown type name 'pthread_cond_t'
+   99 | static inline int pthread_cond_destroy(pthread_cond_t *cv)
+      |                                        ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:109:25: error: unknown type name 'pthread_cond_t'
+  109 | int pthread_cond_signal(pthread_cond_t *cv);
+      |                         ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:116:28: error: unknown type name 'pthread_cond_t'
+  116 | int pthread_cond_broadcast(pthread_cond_t *cv);
+      |                            ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:123:23: error: unknown type name 'pthread_cond_t'
+  123 | int pthread_cond_wait(pthread_cond_t *cv, pthread_mutex_t *mut);
+      |                       ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:123:43: error: unknown type name 'pthread_mutex_t'; did you mean '_thread_base_t'?
+  123 | int pthread_cond_wait(pthread_cond_t *cv, pthread_mutex_t *mut);
+      |                                           ^~~~~~~~~~~~~~~
+      |                                           _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:130:28: error: unknown type name 'pthread_cond_t'
+  130 | int pthread_cond_timedwait(pthread_cond_t *cv, pthread_mutex_t *mut,
+      |                            ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:130:48: error: unknown type name 'pthread_mutex_t'; did you mean '_thread_base_t'?
+  130 | int pthread_cond_timedwait(pthread_cond_t *cv, pthread_mutex_t *mut,
+      |                                                ^~~~~~~~~~~~~~~
+      |                                                _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:140:41: error: unknown type name 'pthread_condattr_t'
+  140 | static inline int pthread_condattr_init(pthread_condattr_t *att)
+      |                                         ^~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:152:44: error: unknown type name 'pthread_condattr_t'
+  152 | static inline int pthread_condattr_destroy(pthread_condattr_t *att)
+      |                                            ^~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:208:27: error: unknown type name 'pthread_mutex_t'; did you mean '_thread_base_t'?
+  208 | int pthread_mutex_destroy(pthread_mutex_t *m);
+      |                           ^~~~~~~~~~~~~~~
+      |                           _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:215:24: error: unknown type name 'pthread_mutex_t'; did you mean '_thread_base_t'?
+  215 | int pthread_mutex_lock(pthread_mutex_t *m);
+      |                        ^~~~~~~~~~~~~~~
+      |                        _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:222:26: error: unknown type name 'pthread_mutex_t'; did you mean '_thread_base_t'?
+  222 | int pthread_mutex_unlock(pthread_mutex_t *m);
+      |                          ^~~~~~~~~~~~~~~
+      |                          _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:230:29: error: unknown type name 'pthread_mutex_t'; did you mean '_thread_base_t'?
+  230 | int pthread_mutex_timedlock(pthread_mutex_t *m,
+      |                             ^~~~~~~~~~~~~~~
+      |                             _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:238:27: error: unknown type name 'pthread_mutex_t'; did you mean '_thread_base_t'?
+  238 | int pthread_mutex_trylock(pthread_mutex_t *m);
+      |                           ^~~~~~~~~~~~~~~
+      |                           _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:245:24: error: unknown type name 'pthread_mutex_t'; did you mean '_thread_base_t'?
+  245 | int pthread_mutex_init(pthread_mutex_t *m,
+      |                        ^~~~~~~~~~~~~~~
+      |                        _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:246:16: error: unknown type name 'pthread_mutexattr_t'
+  246 |          const pthread_mutexattr_t *att);
+      |                ^~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:253:35: error: unknown type name 'pthread_mutexattr_t'
+  253 | int pthread_mutexattr_setprotocol(pthread_mutexattr_t *attr, int protocol);
+      |                                   ^~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:260:31: error: unknown type name 'pthread_mutexattr_t'
+  260 | int pthread_mutexattr_settype(pthread_mutexattr_t *attr, int type);
+      |                               ^~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:267:41: error: unknown type name 'pthread_mutexattr_t'
+  267 | int pthread_mutexattr_getprotocol(const pthread_mutexattr_t *attr,
+      |                                         ^~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:275:37: error: unknown type name 'pthread_mutexattr_t'
+  275 | int pthread_mutexattr_gettype(const pthread_mutexattr_t *attr, int *type);
+      |                                     ^~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:284:42: error: unknown type name 'pthread_mutexattr_t'
+  284 | static inline int pthread_mutexattr_init(pthread_mutexattr_t *m)
+      |                                          ^~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:298:45: error: unknown type name 'pthread_mutexattr_t'
+  298 | static inline int pthread_mutexattr_destroy(pthread_mutexattr_t *m)
+      |                                             ^~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:347:26: error: unknown type name 'pthread_barrier_t'; did you mean '_thread_base_t'?
+  347 | int pthread_barrier_wait(pthread_barrier_t *b);
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:354:40: error: unknown type name 'pthread_barrier_t'; did you mean '_thread_base_t'?
+  354 | static inline int pthread_barrier_init(pthread_barrier_t *b,
+      |                                        ^~~~~~~~~~~~~~~~~
+      |                                        _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:355:18: error: unknown type name 'pthread_barrierattr_t'
+  355 |            const pthread_barrierattr_t *attr,
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:372:43: error: unknown type name 'pthread_barrier_t'; did you mean '_thread_base_t'?
+  372 | static inline int pthread_barrier_destroy(pthread_barrier_t *b)
+      |                                           ^~~~~~~~~~~~~~~~~
+      |                                           _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:386:44: error: unknown type name 'pthread_barrierattr_t'
+  386 | static inline int pthread_barrierattr_init(pthread_barrierattr_t *b)
+      |                                            ^~~~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:400:47: error: unknown type name 'pthread_barrierattr_t'
+  400 | static inline int pthread_barrierattr_destroy(pthread_barrierattr_t *b)
+      |                                               ^~~~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:444:15: error: unknown type name 'pthread_t'
+  444 | static inline pthread_t pthread_self(void)
+      |               ^~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h: In function 'pthread_self':
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:446:10: error: 'pthread_t' undeclared (first use in this function); did you mean '_thread_t'?
+  446 |  return (pthread_t)k_current_get();
+      |          ^~~~~~~~~
+      |          _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:446:10: note: each undeclared identifier is reported only once for each function it appears in
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:446:20: error: expected ';' before 'k_current_get'
+  446 |  return (pthread_t)k_current_get();
+      |                    ^~~~~~~~~~~~~
+      |                    ;
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h: At top level:
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:455:33: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  455 | static inline int pthread_equal(pthread_t pt1, pthread_t pt2)
+      |                                 ^~~~~~~~~
+      |                                 _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:455:48: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  455 | static inline int pthread_equal(pthread_t pt1, pthread_t pt2)
+      |                                                ^~~~~~~~~
+      |                                                _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:465:46: error: unknown type name 'pthread_rwlockattr_t'
+  465 | static inline int pthread_rwlockattr_destroy(pthread_rwlockattr_t *attr)
+      |                                              ^~~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:475:43: error: unknown type name 'pthread_rwlockattr_t'
+  475 | static inline int pthread_rwlockattr_init(pthread_rwlockattr_t *attr)
+      |                                           ^~~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:480:37: error: unknown type name 'pthread_attr_t'
+  480 | int pthread_attr_getstacksize(const pthread_attr_t *attr, size_t *stacksize);
+      |                                     ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:481:33: error: unknown type name 'pthread_attr_t'; did you mean '_thread_arch_t'?
+  481 | int pthread_attr_setschedpolicy(pthread_attr_t *attr, int policy);
+      |                                 ^~~~~~~~~~~~~~
+      |                                 _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:482:39: error: unknown type name 'pthread_attr_t'
+  482 | int pthread_attr_getschedpolicy(const pthread_attr_t *attr, int *policy);
+      |                                       ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:483:33: error: unknown type name 'pthread_attr_t'; did you mean '_thread_arch_t'?
+  483 | int pthread_attr_setdetachstate(pthread_attr_t *attr, int detachstate);
+      |                                 ^~~~~~~~~~~~~~
+      |                                 _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:484:39: error: unknown type name 'pthread_attr_t'
+  484 | int pthread_attr_getdetachstate(const pthread_attr_t *attr, int *detachstate);
+      |                                       ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:485:23: error: unknown type name 'pthread_attr_t'; did you mean '_thread_arch_t'?
+  485 | int pthread_attr_init(pthread_attr_t *attr);
+      |                       ^~~~~~~~~~~~~~
+      |                       _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:486:26: error: unknown type name 'pthread_attr_t'; did you mean '_thread_arch_t'?
+  486 | int pthread_attr_destroy(pthread_attr_t *attr);
+      |                          ^~~~~~~~~~~~~~
+      |                          _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:487:38: error: unknown type name 'pthread_attr_t'
+  487 | int pthread_attr_getschedparam(const pthread_attr_t *attr,
+      |                                      ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:489:27: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  489 | int pthread_getschedparam(pthread_t pthread, int *policy,
+      |                           ^~~~~~~~~
+      |                           _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:491:33: error: unknown type name 'pthread_attr_t'
+  491 | int pthread_attr_getstack(const pthread_attr_t *attr,
+      |                                 ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:493:27: error: unknown type name 'pthread_attr_t'; did you mean '_thread_arch_t'?
+  493 | int pthread_attr_setstack(pthread_attr_t *attr, void *stackaddr,
+      |                           ^~~~~~~~~~~~~~
+      |                           _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:495:18: error: unknown type name 'pthread_once_t'; did you mean '_thread_base_t'?
+  495 | int pthread_once(pthread_once_t *once, void (*initFunc)(void));
+      |                  ^~~~~~~~~~~~~~
+      |                  _thread_base_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:497:18: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  497 | int pthread_join(pthread_t thread, void **status);
+      |                  ^~~~~~~~~
+      |                  _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:498:20: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  498 | int pthread_cancel(pthread_t pthread);
+      |                    ^~~~~~~~~
+      |                    _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:499:20: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  499 | int pthread_detach(pthread_t thread);
+      |                    ^~~~~~~~~
+      |                    _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:500:20: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  500 | int pthread_create(pthread_t *newthread, const pthread_attr_t *attr,
+      |                    ^~~~~~~~~
+      |                    _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:500:48: error: unknown type name 'pthread_attr_t'
+  500 | int pthread_create(pthread_t *newthread, const pthread_attr_t *attr,
+      |                                                ^~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:503:32: error: unknown type name 'pthread_attr_t'; did you mean '_thread_arch_t'?
+  503 | int pthread_attr_setschedparam(pthread_attr_t *attr,
+      |                                ^~~~~~~~~~~~~~
+      |                                _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:505:27: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  505 | int pthread_setschedparam(pthread_t pthread, int policy,
+      |                           ^~~~~~~~~
+      |                           _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:507:28: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  507 | int pthread_rwlock_destroy(pthread_rwlock_t *rwlock);
+      |                            ^~~~~~~~~~~~~~~~
+      |                            _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:508:25: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  508 | int pthread_rwlock_init(pthread_rwlock_t *rwlock,
+      |                         ^~~~~~~~~~~~~~~~
+      |                         _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:509:10: error: unknown type name 'pthread_rwlockattr_t'
+  509 |    const pthread_rwlockattr_t *attr);
+      |          ^~~~~~~~~~~~~~~~~~~~
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:510:27: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  510 | int pthread_rwlock_rdlock(pthread_rwlock_t *rwlock);
+      |                           ^~~~~~~~~~~~~~~~
+      |                           _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:511:32: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  511 | int pthread_rwlock_timedrdlock(pthread_rwlock_t *rwlock,
+      |                                ^~~~~~~~~~~~~~~~
+      |                                _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:513:32: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  513 | int pthread_rwlock_timedwrlock(pthread_rwlock_t *rwlock,
+      |                                ^~~~~~~~~~~~~~~~
+      |                                _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:515:30: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  515 | int pthread_rwlock_tryrdlock(pthread_rwlock_t *rwlock);
+      |                              ^~~~~~~~~~~~~~~~
+      |                              _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:516:30: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  516 | int pthread_rwlock_trywrlock(pthread_rwlock_t *rwlock);
+      |                              ^~~~~~~~~~~~~~~~
+      |                              _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:517:27: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  517 | int pthread_rwlock_unlock(pthread_rwlock_t *rwlock);
+      |                           ^~~~~~~~~~~~~~~~
+      |                           _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:518:27: error: unknown type name 'pthread_rwlock_t'; did you mean '_thread_arch_t'?
+  518 | int pthread_rwlock_wrlock(pthread_rwlock_t *rwlock);
+      |                           ^~~~~~~~~~~~~~~~
+      |                           _thread_arch_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:519:24: error: unknown type name 'pthread_key_t'; did you mean '_thread_t'?
+  519 | int pthread_key_create(pthread_key_t *key,
+      |                        ^~~~~~~~~~~~~
+      |                        _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:521:24: error: unknown type name 'pthread_key_t'; did you mean '_thread_t'?
+  521 | int pthread_key_delete(pthread_key_t key);
+      |                        ^~~~~~~~~~~~~
+      |                        _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:522:25: error: unknown type name 'pthread_key_t'; did you mean '_thread_t'?
+  522 | int pthread_setspecific(pthread_key_t key, const void *value);
+      |                         ^~~~~~~~~~~~~
+      |                         _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:523:27: error: unknown type name 'pthread_key_t'; did you mean '_thread_t'?
+  523 | void *pthread_getspecific(pthread_key_t key);
+      |                           ^~~~~~~~~~~~~
+      |                           _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:541:24: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  541 | int pthread_setname_np(pthread_t thread, const char *name);
+      |                        ^~~~~~~~~
+      |                        _thread_t
+/home/marlar/movelt_success/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/pthread.h:558:24: error: unknown type name 'pthread_t'; did you mean '_thread_t'?
+  558 | int pthread_getname_np(pthread_t thread, char *name, size_t len);
+      |                        ^~~~~~~~~
+      |                        _thread_t
+make[5]: *** [CMakeFiles/cmTC_86cce.dir/build.make:78: CMakeFiles/cmTC_86cce.dir/CheckIncludeFile.c.obj] Error 1
+make[5]: Leaving directory '/home/marlar/movelt_success/firmware/mcu_ws/build/rclc_lifecycle/CMakeFiles/CMakeTmp'
+make[4]: *** [Makefile:127: cmTC_86cce/fast] Error 2
+make[4]: Leaving directory '/home/marlar/movelt_success/firmware/mcu_ws/build/rclc_lifecycle/CMakeFiles/CMakeTmp'
+
+
+

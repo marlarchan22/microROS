@@ -1,0 +1,42 @@
+Cloning into 'sanitizers'...
+Cloning into 'spdlog'...
+Cloning into 'fastdds'...
+Already on 'master'
+HEAD is now at 99e159e Merge pull request #23 from gunrot/noheaderext
+CMake Deprecation Warning at CMakeLists.txt:33 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+HEAD is now at 1549ff12 Replace STRING(PREPEND ..) in CMakeLists.txt to support older CMake versions
+CMake Warning (dev) at /usr/share/cmake-3.20/Modules/GNUInstallDirs.cmake:233 (message):
+  Unable to determine default CMAKE_INSTALL_LIBDIR directory because no
+  target architecture is known.  Please enable at least one language before
+  including GNUInstallDirs.
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+Switched to a new branch '2.0.x'
+Submodule 'thirdparty/android-ifaddrs' (https://github.com/michalsrb/android-ifaddrs.git) registered for path 'thirdparty/android-ifaddrs'
+Submodule 'thirdparty/asio' (https://github.com/chriskohlhoff/asio.git) registered for path 'thirdparty/asio'
+Submodule 'thirdparty/fastcdr' (https://github.com/eProsima/Fast-CDR.git) registered for path 'thirdparty/fastcdr'
+Submodule 'thirdparty/tinyxml2' (https://github.com/leethomason/tinyxml2.git) registered for path 'thirdparty/tinyxml2'
+Cloning into '/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds/thirdparty/android-ifaddrs'...
+Cloning into '/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds/thirdparty/asio'...
+Cloning into '/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds/thirdparty/fastcdr'...
+Cloning into '/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds/thirdparty/tinyxml2'...
+CMake Warning (dev) at /usr/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /home/marlar/movelt/build/microxrcedds_agent/temp_install/fastrtps-2.0.1/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:137 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

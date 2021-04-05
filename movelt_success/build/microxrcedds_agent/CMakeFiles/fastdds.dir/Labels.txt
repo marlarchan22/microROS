@@ -1,0 +1,14 @@
+# Target labels
+ fastdds
+# Source files and their labels
+/home/marlar/movelt/build/microxrcedds_agent/CMakeFiles/fastdds
+/home/marlar/movelt/build/microxrcedds_agent/CMakeFiles/fastdds.rule
+/home/marlar/movelt/build/microxrcedds_agent/CMakeFiles/fastdds-complete.rule
+/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds-stamp/fastdds-build.rule
+/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds-stamp/fastdds-configure.rule
+/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds-stamp/fastdds-download.rule
+/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds-stamp/fastdds-install.rule
+/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds-stamp/fastdds-mkdir.rule
+/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds-stamp/fastdds-patch.rule
+/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds-stamp/fastdds-test.rule
+/home/marlar/movelt/build/microxrcedds_agent/fastdds/src/fastdds-stamp/fastdds-update.rule

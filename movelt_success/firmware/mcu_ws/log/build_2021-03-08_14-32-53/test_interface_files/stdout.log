@@ -1,0 +1,38 @@
+-- Found ament_cmake_core: 0.9.8 (/home/marlar/movelt_success/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marlar/movelt_success/firmware/mcu_ws/build/test_interface_files
+-- Install configuration: "Debug"
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/Arrays.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/BasicTypes.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/BoundedSequences.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/Constants.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/Defaults.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/Empty.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/MultiNested.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/Nested.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/Strings.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/UnboundedSequences.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/msg/WStrings.msg
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/srv/Arrays.srv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/srv/BasicTypes.srv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/srv/Empty.srv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/action/Fibonacci.action
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/test_interface_files
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/test_interface_files
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/environment/ament_prefix_path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/environment/ament_prefix_path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/environment/path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/environment/path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/local_setup.bash
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/local_setup.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/local_setup.zsh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/local_setup.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/package.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/packages/test_interface_files
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/cmake/test_interface_files-extras.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/cmake/test_interface_filesConfig.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/cmake/test_interface_filesConfig-version.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/test_interface_files/package.xml

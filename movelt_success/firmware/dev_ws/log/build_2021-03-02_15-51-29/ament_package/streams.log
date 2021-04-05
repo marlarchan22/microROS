@@ -1,0 +1,100 @@
+[0.863s] Invoking command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_package': PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_package/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_package --record /home/marlar/movelt/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed
+[1.090s] running egg_info
+[1.091s] creating ../../build/ament_package/ament_package.egg-info
+[1.091s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[1.091s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[1.091s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[1.098s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.121s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.121s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.121s] running build
+[1.121s] running build_py
+[1.122s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_package/build
+[1.122s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib
+[1.122s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.122s] copying ament_package/templates.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.122s] copying ament_package/__init__.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.123s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[1.123s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.123s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.123s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.123s] copying ament_package/template/environment_hook/path.bat -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.123s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.123s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.124s] copying ament_package/template/environment_hook/path.sh -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.124s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.124s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.124s] copying ament_package/template/environment_hook/library_path.sh -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.124s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.125s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.125s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.125s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.125s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.125s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.125s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.126s] copying ament_package/template/package_level/local_setup.sh.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.126s] copying ament_package/template/package_level/local_setup.bash.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.126s] copying ament_package/template/package_level/local_setup.bat.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.128s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.128s] creating /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.128s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.128s] copying ament_package/template/prefix_level/local_setup.bash -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.129s] copying ament_package/template/prefix_level/setup.zsh -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.129s] copying ament_package/template/prefix_level/setup.sh.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.129s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.129s] copying ament_package/template/prefix_level/_local_setup_util.py -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.129s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.129s] copying ament_package/template/prefix_level/setup.bash -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.129s] copying ament_package/template/prefix_level/setup.bat.in -> /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.130s] running install
+[1.130s] running install_lib
+[1.130s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package
+[1.131s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template
+[1.131s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.131s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.131s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.131s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.131s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.131s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.131s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.131s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.132s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.133s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.134s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[1.134s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[1.134s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[1.134s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[1.135s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[1.135s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.135s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.136s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.136s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.136s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.136s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.140s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.141s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.141s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.141s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.142s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.142s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.142s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.143s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.143s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.144s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.144s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/templates.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package
+[1.144s] copying /home/marlar/movelt/firmware/dev_ws/build/ament_package/build/lib/ament_package/__init__.py -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package
+[1.145s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-38.pyc
+[1.145s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-38.pyc
+[1.145s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/templates.py to templates.cpython-38.pyc
+[1.148s] byte-compiling /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package/__init__.py to __init__.cpython-38.pyc
+[1.148s] running install_data
+[1.148s] copying package.xml -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/share/ament_package
+[1.148s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/share/ament_index
+[1.148s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/share/ament_index/resource_index
+[1.148s] creating /home/marlar/movelt/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[1.148s] copying resource/ament_package -> /home/marlar/movelt/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[1.148s] running install_egg_info
+[1.149s] Copying ../../build/ament_package/ament_package.egg-info to /home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages/ament_package-0.9.3-py3.8.egg-info
+[1.149s] running install_scripts
+[1.156s] writing list of installed files to '/home/marlar/movelt/firmware/dev_ws/build/ament_package/install.log'
+[1.194s] Invoked command in '/home/marlar/movelt/firmware/dev_ws/ament/ament_package' returned '0': PYTHONPATH=/home/marlar/movelt/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/marlar/movelt/firmware/dev_ws/build/ament_package/build install --prefix /home/marlar/movelt/firmware/dev_ws/install/ament_package --record /home/marlar/movelt/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed

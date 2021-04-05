@@ -1,0 +1,22 @@
+-- Found ament_cmake: 0.9.8 (/home/marlar/movelt_success/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marlar/movelt_success/firmware/mcu_ws/build/common_interfaces
+-- Install configuration: "Debug"
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/environment/path.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/environment/path.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/local_setup.bash
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/local_setup.sh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/local_setup.zsh
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/local_setup.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/package.dsv
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/ament_index/resource_index/packages/common_interfaces
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/cmake/common_interfacesConfig.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+-- Installing: /home/marlar/movelt_success/firmware/mcu_ws/install/share/common_interfaces/package.xml

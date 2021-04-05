@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.000671] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000746] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.000806] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001232] (-) JobUnselected: {'identifier': 'microcdr'}
+[0.001469] (-) JobUnselected: {'identifier': 'microxrcedds_agent'}
+[0.001546] (-) JobUnselected: {'identifier': 'rmw_microxrcedds'}
+[0.001632] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_c'}
+[0.001736] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_c_tests'}
+[0.001771] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_cpp'}
+[0.001802] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_cpp_tests'}
+[0.001834] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_test_msg'}
+[0.001871] (microros_moveit2_demo) JobQueued: {'identifier': 'microros_moveit2_demo', 'dependencies': OrderedDict()}
+[0.001918] (microros_moveit2_demo) JobStarted: {'identifier': 'microros_moveit2_demo'}
+[0.015474] (microros_moveit2_demo) JobProgress: {'identifier': 'microros_moveit2_demo', 'progress': 'cmake'}
+[0.016026] (microros_moveit2_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/marlar/movelt_success/micro-ROS_moveit2_demo', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/microros_moveit2_demo'], 'cwd': '/home/marlar/movelt_success/build/microros_moveit2_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marlar'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '2412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/marlar/movelt_success/install/rosidl_typesupport_microxrcedds_c/lib:/home/marlar/movelt_success/install/microxrcedds_agent/lib:/home/marlar/movelt_success/install/micro_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marlar'), ('OLDPWD', '/home/marlar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2240'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/marlar/movelt_success/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marlar'), ('JOURNAL_STREAM', '8:49067'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marlar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/marlar/.local/bin:/home/marlar/.local/bin:/home/marlar/.local/bin:/home/marlar/.local/bin:/home/marlar/.local/bin:/home/marlar/.local/bin:/opt/gcc/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/gcc/gcc-arm-none-eabi-9-2020-q2-update/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marlar-Precision-5820-Tower:@/tmp/.ICE-unix/2455,unix/marlar-Precision-5820-Tower:/tmp/.ICE-unix/2455'), ('INVOCATION_ID', 'c9b3c53393194a02bab3eaf01b417de9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35987f28_c331_48b1_90d1_edcc203aab4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.770'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/marlar/movelt_success/install/rosidl_typesupport_microxrcedds_c:/home/marlar/movelt_success/install/micro_ros_agent:/home/marlar/movelt_success/install/micro_ros_setup:/home/marlar/movelt_success/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marlar/movelt_success/build/microros_moveit2_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/marlar/movelt_success/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/marlar/movelt_success/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/marlar/movelt_success/install/rosidl_typesupport_microxrcedds_c:/home/marlar/movelt_success/install/micro_ros_agent:/home/marlar/movelt_success/install/microxrcedds_agent:/home/marlar/movelt_success/install/microcdr:/home/marlar/movelt_success/install/micro_ros_setup:/home/marlar/movelt_success/install/micro_ros_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.099017] (-) TimerEvent: {}
+[0.114675] (microros_moveit2_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.199338] (-) TimerEvent: {}
+[0.218533] (microros_moveit2_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.235623] (microros_moveit2_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299487] (-) TimerEvent: {}
+[0.341387] (microros_moveit2_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.361019] (microros_moveit2_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.361420] (microros_moveit2_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.361996] (microros_moveit2_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.366374] (microros_moveit2_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399818] (-) TimerEvent: {}
+[0.483411] (microros_moveit2_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.491761] (microros_moveit2_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.492150] (microros_moveit2_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.492415] (microros_moveit2_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.496086] (microros_moveit2_demo) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.500111] (-) TimerEvent: {}
+[0.539485] (microros_moveit2_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.539839] (microros_moveit2_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600245] (-) TimerEvent: {}
+[0.700500] (-) TimerEvent: {}
+[0.700760] (microros_moveit2_demo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.750217] (microros_moveit2_demo) StderrLine: {'line': b'CMake Error at CMakeLists.txt:15 (find_package):\n'}
+[0.750658] (microros_moveit2_demo) StderrLine: {'line': b'  By not providing "Findmoveit_ros_planning_interface.cmake" in\n'}
+[0.750829] (microros_moveit2_demo) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[0.750978] (microros_moveit2_demo) StderrLine: {'line': b'  configuration file provided by "moveit_ros_planning_interface", but CMake\n'}
+[0.751120] (microros_moveit2_demo) StderrLine: {'line': b'  did not find one.\n'}
+[0.751257] (microros_moveit2_demo) StderrLine: {'line': b'\n'}
+[0.751391] (microros_moveit2_demo) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.751524] (microros_moveit2_demo) StderrLine: {'line': b'  "moveit_ros_planning_interface" with any of the following names:\n'}
+[0.751656] (microros_moveit2_demo) StderrLine: {'line': b'\n'}
+[0.751870] (microros_moveit2_demo) StderrLine: {'line': b'    moveit_ros_planning_interfaceConfig.cmake\n'}
+[0.752066] (microros_moveit2_demo) StderrLine: {'line': b'    moveit_ros_planning_interface-config.cmake\n'}
+[0.752205] (microros_moveit2_demo) StderrLine: {'line': b'\n'}
+[0.752340] (microros_moveit2_demo) StderrLine: {'line': b'  Add the installation prefix of "moveit_ros_planning_interface" to\n'}
+[0.752475] (microros_moveit2_demo) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory\n'}
+[0.752607] (microros_moveit2_demo) StderrLine: {'line': b'  containing one of the above files.  If "moveit_ros_planning_interface"\n'}
+[0.752747] (microros_moveit2_demo) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.753433] (microros_moveit2_demo) StderrLine: {'line': b'  installed.\n'}
+[0.753999] (microros_moveit2_demo) StderrLine: {'line': b'\n'}
+[0.754547] (microros_moveit2_demo) StderrLine: {'line': b'\n'}
+[0.755277] (microros_moveit2_demo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.755999] (microros_moveit2_demo) StdoutLine: {'line': b'See also "/home/marlar/movelt_success/build/microros_moveit2_demo/CMakeFiles/CMakeOutput.log".\n'}
+[0.758462] (microros_moveit2_demo) CommandEnded: {'returncode': 1}
+[0.783437] (microros_moveit2_demo) JobEnded: {'identifier': 'microros_moveit2_demo', 'rc': 1}
+[0.794394] (-) EventReactorShutdown: {}

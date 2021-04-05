@@ -1,0 +1,26 @@
+CMake Warning at /home/marlar/movelt_success/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rmw/cmake/rmwConfig.cmake:41 (include)
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake:41 (include)
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+  /home/marlar/movelt_success/firmware/mcu_ws/install/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+In file included from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/build/unique_identifier_msgs/rosidl_generator_c/unique_identifier_msgs/msg/detail/uuid__struct.h:15[m[K,
+                 from [01m[K/home/marlar/movelt_success/firmware/mcu_ws/build/unique_identifier_msgs/rosidl_typesupport_c/unique_identifier_msgs/msg/uuid__type_support.cpp:8[m[K:
+[01m[K/home/marlar/movelt_success/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K

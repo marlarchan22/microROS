@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcomponent_parser.a CMakeFiles/component_parser.dir/src/component_parser.cpp.o
+/usr/bin/ranlib libcomponent_parser.a

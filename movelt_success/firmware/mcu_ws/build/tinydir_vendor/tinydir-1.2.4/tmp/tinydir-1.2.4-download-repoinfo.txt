@@ -1,0 +1,5 @@
+method=url
+url=https://github.com/cxong/tinydir/archive/1.2.4.tar.gz
+hash=MD5=15978c5f498e2ff3d26a9975c734cda0
+source_dir=/home/marlar/movelt_success/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+

@@ -1,0 +1,19 @@
+[0.089s] Invoking command in '/home/marlar/movelt_success/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/marlar/movelt_success/moveit_resources/panda_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/marlar/movelt_success/install/moveit_resources_panda_description
+[0.148s] -- The C compiler identification is GNU 9.3.0
+[0.225s] -- The CXX compiler identification is GNU 9.3.0
+[0.235s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.453s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.453s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.824s] -- Configuring done
+[0.828s] -- Generating done
+[0.828s] -- Build files have been written to: /home/marlar/movelt_success/build/moveit_resources_panda_description

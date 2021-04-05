@@ -1,0 +1,2 @@
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libtracetools.a CMakeFiles/tracetools.dir/src/tracetools.c.obj CMakeFiles/tracetools.dir/src/utils.cpp.obj
+/home/marlar/movelt_success/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libtracetools.a
