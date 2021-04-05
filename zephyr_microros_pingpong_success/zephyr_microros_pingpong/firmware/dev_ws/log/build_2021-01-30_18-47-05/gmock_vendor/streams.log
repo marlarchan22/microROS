@@ -1,0 +1,50 @@
+[0.045s] Invoking command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor PKG_CONFIG_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/ament/googletest/googlemock -DCMAKE_INSTALL_PREFIX=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor
+[0.054s] -- Configuring done
+[0.055s] -- Generating done
+[0.055s] -- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor
+[0.263s] Invoked command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor PKG_CONFIG_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/ament/googletest/googlemock -DCMAKE_INSTALL_PREFIX=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor
+[0.265s] Invoking command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor PKG_CONFIG_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake --build /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor -- -j4 -l4
+[0.295s] Invoked command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor PKG_CONFIG_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake --build /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor -- -j4 -l4
+[0.647s] Invoking command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor PKG_CONFIG_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake --install /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor
+[0.659s] -- Install configuration: ""
+[0.659s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/share/gmock_vendor/cmake/gmock_vendorConfig.cmake
+[0.659s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/share/gmock_vendor/package.xml
+[0.660s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/CMakeLists.txt
+[0.660s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock
+[0.660s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-function-mocker.h
+[0.661s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock.h
+[0.661s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-nice-strict.h.pump
+[0.661s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-actions.h
+[0.662s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h
+[0.663s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-spec-builders.h
+[0.663s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-actions.h
+[0.663s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-actions.h.pump
+[0.663s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-cardinalities.h
+[0.663s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-more-matchers.h
+[0.663s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-nice-strict.h
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-generated-internal-utils.h
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-port.h
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-generated-internal-utils.h.pump
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-pp.h
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/README.md
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-generated-actions.h
+[0.664s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-generated-actions.h.pump
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-port.h
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-matchers.h
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-more-actions.h
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-matchers.h
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-matchers.h.pump
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-matchers.h
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h.pump
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/src
+[0.665s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/src/gmock.cc
+[0.666s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/src/gmock_main.cc
+[0.666s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/src/gmock-spec-builders.cc
+[0.666s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/src/gmock-internal-utils.cc
+[0.666s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/src/gmock-cardinalities.cc
+[0.666s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/src/gmock-matchers.cc
+[0.666s] -- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gmock_vendor/src/gmock_vendor/src/gmock-all.cc
+[0.669s] Invoked command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor PKG_CONFIG_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake --install /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/gmock_vendor

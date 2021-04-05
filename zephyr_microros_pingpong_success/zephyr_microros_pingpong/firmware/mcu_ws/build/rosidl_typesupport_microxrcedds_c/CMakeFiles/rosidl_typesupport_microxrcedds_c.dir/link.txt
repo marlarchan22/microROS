@@ -1,0 +1,2 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc librosidl_typesupport_microxrcedds_c.a CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.obj CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/deserialize_buffer_utility.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib librosidl_typesupport_microxrcedds_c.a

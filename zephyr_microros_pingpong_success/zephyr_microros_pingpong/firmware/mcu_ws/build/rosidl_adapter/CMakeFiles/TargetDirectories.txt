@@ -1,0 +1,8 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/install/local.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/install.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/list_install_components.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/rebuild_cache.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/edit_cache.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/test.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/rosidl_adapter_uninstall.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/uninstall.dir

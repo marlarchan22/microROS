@@ -1,0 +1,47 @@
+[0.274s] Invoking command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint PYTHONPATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build install --prefix /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8 --record /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed
+[0.488s] running egg_info
+[0.489s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[0.489s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.489s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.489s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.489s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.490s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.491s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.521s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.522s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.522s] running build
+[0.522s] running build_py
+[0.523s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build
+[0.523s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib
+[0.523s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.523s] copying ament_flake8/legacy.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.523s] copying ament_flake8/__init__.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.523s] copying ament_flake8/main.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.524s] copying ament_flake8/pytest_marker.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.524s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.524s] copying ament_flake8/configuration/ament_flake8.ini -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.524s] running install
+[0.525s] running install_lib
+[0.526s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.526s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/legacy.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.526s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[0.527s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[0.527s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.527s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.527s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.527s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/legacy.py to legacy.cpython-38.pyc
+[0.529s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/__init__.py to __init__.cpython-38.pyc
+[0.529s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/main.py to main.cpython-38.pyc
+[0.531s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-38.pyc
+[0.531s] running install_data
+[0.531s] copying package.xml -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/share/ament_flake8
+[0.532s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/share/ament_index
+[0.532s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index
+[0.532s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[0.532s] copying resource/ament_flake8 -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[0.532s] running install_egg_info
+[0.534s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8-0.9.6-py3.8.egg-info
+[0.534s] running install_scripts
+[0.551s] Installing ament_flake8 script to /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/bin
+[0.551s] writing list of installed files to '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/install.log'
+[0.620s] Invoked command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint PYTHONPATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/build install --prefix /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8 --record /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed

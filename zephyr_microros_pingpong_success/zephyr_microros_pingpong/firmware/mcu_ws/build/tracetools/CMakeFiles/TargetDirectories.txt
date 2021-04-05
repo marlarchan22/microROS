@@ -1,0 +1,10 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/install/local.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/install.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/list_install_components.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/rebuild_cache.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/edit_cache.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/test.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/install/strip.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/tracetools.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/tracetools_uninstall.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/tracetools/CMakeFiles/uninstall.dir

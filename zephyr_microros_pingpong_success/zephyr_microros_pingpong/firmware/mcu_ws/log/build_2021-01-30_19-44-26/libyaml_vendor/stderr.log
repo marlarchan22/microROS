@@ -1,0 +1,58 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_SHARED_LIBS
+    THIRDPARTY
+
+
+CMake Warning (dev) at CMakeLists.txt:55 (add_library):
+  ADD_LIBRARY called with SHARED option but the target platform does not
+  support dynamic linking.  Building a STATIC library instead.  This may lead
+  to problems.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/api.c:[m[K In function '[01m[Kyaml_strdup[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/api.c:66:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kstrdup[m[K'; did you mean '[01m[Kstrcmp[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+   66 |     return (yaml_char_t *)[01;35m[Kstrdup[m[K((char *)str);
+      |                           [01;35m[K^~~~~~[m[K
+      |                           [32m[Kstrcmp[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:[m[K In function '[01m[Kyaml_emitter_write_plain_scalar[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:28:6:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+   28 |      [01;35m[K&&[m[K ((emitter->line_break == YAML_CR_BREAK ?                                \
+      |      [01;35m[K^~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:56:11:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KPUT_BREAK[m[K'
+   56 |          ([01;36m[KPUT_BREAK[m[K(emitter),                                                   \
+      |           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:1931:18:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KWRITE_BREAK[m[K'
+ 1931 |             if (![01;36m[KWRITE_BREAK[m[K(emitter, string)) return 0;
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:[m[K In function '[01m[Kyaml_emitter_write_single_quoted_scalar[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:28:6:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+   28 |      [01;35m[K&&[m[K ((emitter->line_break == YAML_CR_BREAK ?                                \
+      |      [01;35m[K^~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:56:11:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KPUT_BREAK[m[K'
+   56 |          ([01;36m[KPUT_BREAK[m[K(emitter),                                                   \
+      |           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:1988:18:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KWRITE_BREAK[m[K'
+ 1988 |             if (![01;36m[KWRITE_BREAK[m[K(emitter, string)) return 0;
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:[m[K In function '[01m[Kyaml_emitter_write_literal_scalar[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:28:6:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+   28 |      [01;35m[K&&[m[K ((emitter->line_break == YAML_CR_BREAK ?                                \
+      |      [01;35m[K^~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:56:11:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KPUT_BREAK[m[K'
+   56 |          ([01;36m[KPUT_BREAK[m[K(emitter),                                                   \
+      |           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:2251:18:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KWRITE_BREAK[m[K'
+ 2251 |             if (![01;36m[KWRITE_BREAK[m[K(emitter, string)) return 0;
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:[m[K In function '[01m[Kyaml_emitter_write_folded_scalar[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:28:6:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+   28 |      [01;35m[K&&[m[K ((emitter->line_break == YAML_CR_BREAK ?                                \
+      |      [01;35m[K^~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:56:11:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KPUT_BREAK[m[K'
+   56 |          ([01;36m[KPUT_BREAK[m[K(emitter),                                                   \
+      |           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c:2300:18:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KWRITE_BREAK[m[K'
+ 2300 |             if (![01;36m[KWRITE_BREAK[m[K(emitter, string)) return 0;
+      |                  [01;36m[K^~~~~~~~~~~[m[K

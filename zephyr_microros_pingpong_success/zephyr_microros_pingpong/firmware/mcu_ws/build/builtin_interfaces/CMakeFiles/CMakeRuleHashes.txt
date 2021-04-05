@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+d057e59c3f711076698d1c7a9ef542cd CMakeFiles/builtin_interfaces
+8e7856bfa056a658e3281fcd7f8e2fa2 CMakeFiles/builtin_interfaces_uninstall
+a72d4c2e7a5b04780fcf66a357ca4d8d rosidl_generator_c/builtin_interfaces/msg/duration.h
+6871a3cc8dd3e6ba3a9f839d945ff7f0 rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp
+8daf0780c719e59c5f9c97f56ff9528b rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_c.c

@@ -1,0 +1,69 @@
+[0.019s] Invoking command in '/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent
+[0.026s] Not searching for unused variables given on the command line.
+[0.137s] -- The CXX compiler identification is GNU 9.3.0
+[0.157s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.279s] -- Detecting CXX compile features
+[0.279s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.321s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.619s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.621s] -- Looking for C++ include pthread.h
+[0.736s] -- Looking for C++ include pthread.h - found
+[0.736s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.867s] -- Looking for pthread_create in pthreads
+[0.976s] -- Looking for pthread_create in pthreads - not found
+[0.977s] -- Looking for pthread_create in pthread
+[1.094s] -- Looking for pthread_create in pthread - found
+[1.096s] -- Found Threads: TRUE  
+[1.100s] -- Found rosidl_cmake: 1.2.0 (/opt/ros/foxy/share/rosidl_cmake/cmake)
+[1.102s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.126s] -- Found fastrtps_cmake_module: 1.0.2 (/opt/ros/foxy/share/fastrtps_cmake_module/cmake)
+[1.127s] -- Found rmw_dds_common: 1.0.2 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+[1.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.199s] -- Found FastRTPS: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent/include  
+[1.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.277s] -- Found rmw_fastrtps_shared_cpp: 1.2.4 (/opt/ros/foxy/share/rmw_fastrtps_shared_cpp/cmake)
+[1.319s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.321s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.321s] -- Found micro_ros_msgs: 0.0.1 (/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[1.400s] -- Configuring done
+[1.413s] -- Generating done
+[1.414s] -- Build files have been written to: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent
+[1.425s] Invoked command in '/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent
+[1.429s] Invoking command in '/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent -- -j12 -l12
+[1.485s] [ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[1.485s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[1.485s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[1.486s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[1.487s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[4.455s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[4.695s] /usr/bin/ld: warning: libfastrtps.so.2, needed by /opt/ros/foxy/lib/librmw_fastrtps_shared_cpp.so, may conflict with libfastrtps.so.2.0.2
+[4.703s] [100%] Built target micro_ros_agent
+[4.713s] Invoked command in '/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent -- -j12 -l12
+[4.763s] Invoking command in '/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent
+[4.771s] -- Install configuration: ""
+[4.771s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[4.771s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[4.772s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[4.772s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[4.772s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[4.772s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[4.773s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[4.773s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[4.773s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[4.773s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[4.774s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[4.774s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[4.774s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.774s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[4.775s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[4.775s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[4.775s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[4.777s] -- Set runtime path of "/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[4.777s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/launch
+[4.777s] -- Installing: /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[4.782s] Invoked command in '/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib:/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/marlar/zephyr_microros_pingpong_success/zephyr_microros_pingpong/build/micro_ros_agent

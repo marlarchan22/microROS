@@ -1,0 +1,79 @@
+[0.373s] Invoking command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_copyright:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_copyright/bin:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/bin:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build install --prefix /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint --record /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed
+[0.695s] running egg_info
+[0.696s] creating ../../../build/ament_pclint/ament_pclint.egg-info
+[0.697s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[0.697s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[0.697s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[0.697s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[0.697s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[0.699s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[0.750s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[0.754s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[0.754s] running build
+[0.754s] running build_py
+[0.754s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build
+[0.754s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib
+[0.754s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[0.755s] copying ament_pclint/__init__.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[0.755s] copying ament_pclint/main.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[0.755s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.755s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.755s] copying ament_pclint/config/gcc/co-g++.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.755s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.756s] copying ament_pclint/config/gcc/co-gcc.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.756s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.756s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.756s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.756s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.756s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[0.757s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[0.757s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[0.757s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[0.757s] copying ament_pclint/config/msvc/co-cl.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[0.757s] copying ament_pclint/config/au-misra3.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.758s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.758s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.758s] copying ament_pclint/config/c99.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.758s] copying ament_pclint/config/c++.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.758s] copying ament_pclint/config/deprecate.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.758s] copying ament_pclint/config/env-xml.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[0.759s] running install
+[0.759s] running install_lib
+[0.759s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[0.759s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.759s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.759s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.760s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.760s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.760s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.760s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.760s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.761s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.761s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[0.761s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.761s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.761s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.761s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.761s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.761s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[0.762s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[0.762s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[0.762s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[0.762s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.762s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[0.762s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[0.762s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[0.762s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/__init__.py to __init__.cpython-38.pyc
+[0.763s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/main.py to main.cpython-38.pyc
+[0.767s] running install_data
+[0.767s] copying package.xml -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/share/ament_pclint
+[0.767s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/share/ament_index
+[0.768s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index
+[0.768s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[0.768s] copying resource/ament_pclint -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[0.768s] running install_egg_info
+[0.772s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint-0.9.6-py3.8.egg-info
+[0.774s] running install_scripts
+[0.801s] Installing ament_pclint script to /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/bin
+[0.801s] writing list of installed files to '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/install.log'
+[0.846s] Invoked command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_copyright:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_copyright/bin:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/bin:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/build install --prefix /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pclint --record /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed

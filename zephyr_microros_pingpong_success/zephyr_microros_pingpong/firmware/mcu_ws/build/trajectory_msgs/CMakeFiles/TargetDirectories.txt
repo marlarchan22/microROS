@@ -1,0 +1,13 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/install/strip.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/install/local.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/install.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/list_install_components.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/rebuild_cache.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/edit_cache.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/test.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_generator_c.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs_uninstall.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/CMakeFiles/uninstall.dir

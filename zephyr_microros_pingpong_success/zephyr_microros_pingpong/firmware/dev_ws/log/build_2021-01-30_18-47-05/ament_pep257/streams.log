@@ -1,0 +1,40 @@
+[0.370s] Invoking command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/ament/ament_lint/ament_pep257': AMENT_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build install --prefix /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257 --record /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed
+[0.591s] running egg_info
+[0.591s] creating ../../../build/ament_pep257/ament_pep257.egg-info
+[0.591s] writing ../../../build/ament_pep257/ament_pep257.egg-info/PKG-INFO
+[0.592s] writing dependency_links to ../../../build/ament_pep257/ament_pep257.egg-info/dependency_links.txt
+[0.592s] writing entry points to ../../../build/ament_pep257/ament_pep257.egg-info/entry_points.txt
+[0.592s] writing requirements to ../../../build/ament_pep257/ament_pep257.egg-info/requires.txt
+[0.592s] writing top-level names to ../../../build/ament_pep257/ament_pep257.egg-info/top_level.txt
+[0.593s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.633s] reading manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.634s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.634s] running build
+[0.634s] running build_py
+[0.634s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build
+[0.634s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build/lib
+[0.635s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.635s] copying ament_pep257/__init__.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.635s] copying ament_pep257/main.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.635s] copying ament_pep257/pytest_marker.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.635s] running install
+[0.635s] running install_lib
+[0.635s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[0.635s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/__init__.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[0.635s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/main.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[0.636s] copying /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/pytest_marker.py -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[0.636s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/__init__.py to __init__.cpython-38.pyc
+[0.636s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/main.py to main.cpython-38.pyc
+[0.637s] byte-compiling /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/pytest_marker.py to pytest_marker.cpython-38.pyc
+[0.637s] running install_data
+[0.638s] copying package.xml -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/share/ament_pep257
+[0.640s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/share/ament_index
+[0.641s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index
+[0.641s] creating /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[0.641s] copying resource/ament_pep257 -> /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[0.641s] running install_egg_info
+[0.644s] Copying ../../../build/ament_pep257/ament_pep257.egg-info to /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257-0.9.6-py3.8.egg-info
+[0.645s] running install_scripts
+[0.663s] Installing ament_pep257 script to /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/bin
+[0.663s] writing list of installed files to '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/install.log'
+[0.688s] Invoked command in '/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/ament/ament_lint/ament_pep257' returned '0': AMENT_PREFIX_PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint PATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/build install --prefix /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_pep257 --record /home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

@@ -1,0 +1,4 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectory.idl
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectoryPoint.idl
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectory.idl
+/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.idl

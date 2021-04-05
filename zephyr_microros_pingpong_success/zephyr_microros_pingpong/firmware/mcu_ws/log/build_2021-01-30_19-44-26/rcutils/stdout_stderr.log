@@ -1,0 +1,1179 @@
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_python: 0.9.8 (/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake_ros: 0.9.1 (/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found tinydir_vendor:  (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/tinydir_vendor/cmake)
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ENABLE_TESTING
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcutils
+[  3%] [34m[1mExpanding logging_macros.h.em[0m
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcutils/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils.dir/depend.internal".
+[35m[1mScanning dependencies of target rcutils[0m
+[  6%] [32mBuilding C object CMakeFiles/rcutils.dir/src/allocator.c.obj[0m
+[ 10%] [32mBuilding C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj[0m
+[ 13%] [32mBuilding C object CMakeFiles/rcutils.dir/src/array_list.c.obj[0m
+[ 17%] [32mBuilding C object CMakeFiles/rcutils.dir/src/char_array.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:31[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/char_array.c:16[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:31[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/array_list.c:23[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 20%] [32mBuilding C object CMakeFiles/rcutils.dir/src/env.c.obj[0m
+[ 24%] [32mBuilding C object CMakeFiles/rcutils.dir/src/error_handling.c.obj[0m
+[ 27%] [32mBuilding C object CMakeFiles/rcutils.dir/src/filesystem.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:31[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/error_handling.c:22[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:31[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/env.c:24[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 31%] [32mBuilding C object CMakeFiles/rcutils.dir/src/find.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/find.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/toolchain.h:41[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel_includes.h:19[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:32[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/toolchain/gcc.h:62:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+   62 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert(EXPR, "" MSG)
+      |                               [01;35m[K^~~[m[K
+[ 34%] [32mBuilding C object CMakeFiles/rcutils.dir/src/format_string.c.obj[0m
+[ 37%] [32mBuilding C object CMakeFiles/rcutils.dir/src/get_env.c.obj[0m
+[ 41%] [32mBuilding C object CMakeFiles/rcutils.dir/src/logging.c.obj[0m
+[ 44%] [32mBuilding C object CMakeFiles/rcutils.dir/src/hash_map.c.obj[0m
+[ 48%] [32mBuilding C object CMakeFiles/rcutils.dir/src/process.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/toolchain.h:41[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel_includes.h:19[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:42[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/toolchain/gcc.h:62:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+   62 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert(EXPR, "" MSG)
+      |                               [01;35m[K^~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/toolchain.h:41[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel_includes.h:19[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/process.c:39[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/toolchain/gcc.h:62:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+   62 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert(EXPR, "" MSG)
+      |                               [01;35m[K^~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys_clock.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel_includes.h:35[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:32[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:217:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  217 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:245:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  245 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:273:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  273 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:301:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  301 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:329:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  329 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:357:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  357 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:385:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  385 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:413:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  413 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:441:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  441 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:469:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  469 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:497:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  497 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:525:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  525 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:553:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  553 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:581:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  581 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:609:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  609 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:637:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  637 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:665:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  665 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:693:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  693 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:721:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  721 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:749:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  749 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:777:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  777 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:805:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  805 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:833:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  833 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:861:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  861 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:889:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  889 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:917:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  917 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:945:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  945 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:973:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  973 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1001:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1001 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1029:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1029 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1057:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1057 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1085:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1085 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1113:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1113 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1141:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1141 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1169:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1169 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1197:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1197 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1225:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1225 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1253:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1253 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1281:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1281 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1309:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1309 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1337:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1337 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1365:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1365 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:32[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_timer_remaining_get[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:1481:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1481 |  return k_ticks_to_ms_floor32([01;35m[Kk_timer_remaining_ticks(timer)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:1633:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 1633 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_init[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2714:12:[m[K [01;35m[Kwarning: [m[KISO C forbids empty initializer braces [[01;35m[K-Wpedantic[m[K]
+ 2714 |    .node = [01;35m[K{[m[K},\
+      |            [01;35m[K^[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2749:33:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_DELAYED_WORK_INITIALIZER[m[K'
+ 2749 |  *work = (struct k_delayed_work)[01;36m[KZ_DELAYED_WORK_INITIALIZER[m[K(handler);
+      |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_remaining_get[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2940:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 2940 |  return k_ticks_to_ms_floor32([01;35m[Kz_timeout_remaining(&work->timeout)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:3259:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 3259 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_get_cwd[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:60:24:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   60 | rcutils_get_cwd([01;35m[Kchar * buffer[m[K, size_t max_length)
+      |                 [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:60:39:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kmax_length[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   60 | rcutils_get_cwd(char * buffer, [01;35m[Ksize_t max_length[m[K)
+      |                                [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_directory[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:83:35:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   83 | rcutils_is_directory([01;35m[Kconst char * abs_path[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_file[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:102:30:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  102 | rcutils_is_file([01;35m[Kconst char * abs_path[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_exists[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:121:29:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  121 | rcutils_exists([01;35m[Kconst char * abs_path[m[K)
+      |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_readable[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:136:34:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  136 | rcutils_is_readable([01;35m[Kconst char * abs_path[m[K)
+      |                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_writable[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:158:34:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  158 | rcutils_is_writable([01;35m[Kconst char * abs_path[m[K)
+      |                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_readable_and_writable[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:180:47:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  180 | rcutils_is_readable_and_writable([01;35m[Kconst char * abs_path[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_calculate_directory_size[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:267:47:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kdirectory_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  267 | rcutils_calculate_directory_size([01;35m[Kconst char * directory_path[m[K, rcutils_allocator_t allocator)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:267:83:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kallocator[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  267 | rcutils_calculate_directory_size(const char * directory_path, [01;35m[Krcutils_allocator_t allocator[m[K)
+      |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_get_file_size[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/filesystem.c:325:36:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kfile_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  325 | rcutils_get_file_size([01;35m[Kconst char * file_path[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys_clock.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel_includes.h:35[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:42[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:217:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  217 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:245:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  245 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:273:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  273 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:301:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  301 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:329:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  329 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:357:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  357 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:385:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  385 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:413:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  413 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:441:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  441 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:469:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  469 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:497:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  497 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:525:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  525 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:553:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  553 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:581:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  581 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:609:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  609 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:637:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  637 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:665:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  665 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:693:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  693 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:721:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  721 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:749:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  749 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:777:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  777 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:805:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  805 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:833:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  833 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:861:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  861 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:889:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  889 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:917:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  917 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:945:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  945 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:973:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  973 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1001:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1001 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1029:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1029 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1057:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1057 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1085:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1085 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1113:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1113 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1141:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1141 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1169:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1169 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1197:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1197 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1225:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1225 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1253:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1253 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1281:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1281 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1309:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1309 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1337:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1337 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1365:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1365 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:42[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_timer_remaining_get[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:1481:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1481 |  return k_ticks_to_ms_floor32([01;35m[Kk_timer_remaining_ticks(timer)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:1633:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 1633 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_init[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2714:12:[m[K [01;35m[Kwarning: [m[KISO C forbids empty initializer braces [[01;35m[K-Wpedantic[m[K]
+ 2714 |    .node = [01;35m[K{[m[K},\
+      |            [01;35m[K^[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2749:33:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_DELAYED_WORK_INITIALIZER[m[K'
+ 2749 |  *work = (struct k_delayed_work)[01;36m[KZ_DELAYED_WORK_INITIALIZER[m[K(handler);
+      |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_remaining_get[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2940:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 2940 |  return k_ticks_to_ms_floor32([01;35m[Kz_timeout_remaining(&work->timeout)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:3259:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 3259 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys_clock.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel_includes.h:35[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/process.c:39[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:217:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  217 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:245:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  245 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:273:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  273 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:301:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  301 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:329:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  329 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:357:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  357 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:385:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  385 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:413:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  413 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:441:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  441 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:469:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  469 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:497:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  497 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:525:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  525 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:553:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  553 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:581:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  581 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:609:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  609 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:637:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  637 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:665:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  665 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:693:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  693 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:721:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  721 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:749:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  749 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:777:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  777 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:805:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  805 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:833:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  833 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:861:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  861 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:889:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  889 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:917:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  917 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:945:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  945 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:973:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  973 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1001:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1001 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1029:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1029 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1057:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1057 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1085:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1085 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1113:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1113 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1141:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1141 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1169:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1169 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1197:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1197 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1225:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1225 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1253:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1253 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1281:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1281 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1309:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1309 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1337:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1337 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1365:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1365 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:[m[K In function '[01m[Krcutils_get_env_var_zero_or_one[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:127:35:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kzero_semantic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  127 |   const char * name, [01;35m[Kconst char * zero_semantic[m[K,
+      |                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:128:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kone_semantic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  128 |   [01;35m[Kconst char * one_semantic[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/posix_types.h:14[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/unistd.h:9[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/process.c:39[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_timer_remaining_get[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:1481:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1481 |  return k_ticks_to_ms_floor32([01;35m[Kk_timer_remaining_ticks(timer)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:1633:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 1633 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_init[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2714:12:[m[K [01;35m[Kwarning: [m[KISO C forbids empty initializer braces [[01;35m[K-Wpedantic[m[K]
+ 2714 |    .node = [01;35m[K{[m[K},\
+      |            [01;35m[K^[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2749:33:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_DELAYED_WORK_INITIALIZER[m[K'
+ 2749 |  *work = (struct k_delayed_work)[01;36m[KZ_DELAYED_WORK_INITIALIZER[m[K(handler);
+      |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_remaining_get[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2940:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 2940 |  return k_ticks_to_ms_floor32([01;35m[Kz_timeout_remaining(&work->timeout)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:3259:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 3259 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:[m[K In function '[01m[Krcutils_logging_console_output_handler[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:797:35:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kisatty[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
+  797 | # define IS_STREAM_A_TTY(stream) ([01;35m[Kisatty[m[K(fileno(stream)) != 0)
+      |                                   [01;35m[K^~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:807:22:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KIS_STREAM_A_TTY[m[K'
+  807 |       is_colorized = [01;36m[KIS_STREAM_A_TTY[m[K(g_output_stream); \
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/logging.c:928:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KIS_OUTPUT_COLORIZED[m[K'
+  928 |   [01;36m[KIS_OUTPUT_COLORIZED[m[K(is_colorized)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/process.c:[m[K In function '[01m[Krcutils_get_pid[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/process.c:51:15:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kgetpid[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
+   51 |   return (int)[01;35m[Kgetpid[m[K();
+      |               [01;35m[K^~~~~~[m[K
+[ 51%] [32mBuilding C object CMakeFiles/rcutils.dir/src/qsort.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:31[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/qsort.c:22[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 55%] [32mBuilding C object CMakeFiles/rcutils.dir/src/repl_str.c.obj[0m
+[ 58%] [32mBuilding C object CMakeFiles/rcutils.dir/src/shared_library.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/repl_str.c:38[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:[m[K In function '[01m[Krcutils_load_shared_library[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:63:30:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Klib[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   63 |   [01;35m[Krcutils_shared_library_t * lib[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:64:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Klibrary_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   64 |   [01;35m[Kconst char * library_path[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:65:23:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kallocator[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   65 |   [01;35m[Krcutils_allocator_t allocator[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:[m[K In function '[01m[Krcutils_get_symbol[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:118:23:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kdlsym[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
+  118 |   void * lib_symbol = [01;35m[Kdlsym[m[K(lib->lib_pointer, symbol_name);
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:118:23:[m[K [01;35m[Kwarning: [m[Kinitialization of '[01m[Kvoid *[m[K' from '[01m[Kint[m[K' makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:119:18:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kdlerror[m[K'; did you mean '[01m[Kperror[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  119 |   char * error = [01;35m[Kdlerror[m[K();
+      |                  [01;35m[K^~~~~~~[m[K
+      |                  [32m[Kperror[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:119:18:[m[K [01;35m[Kwarning: [m[Kinitialization of '[01m[Kchar *[m[K' from '[01m[Kint[m[K' makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:[m[K In function '[01m[Krcutils_has_symbol[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:156:23:[m[K [01;35m[Kwarning: [m[Kinitialization of '[01m[Kvoid *[m[K' from '[01m[Kint[m[K' makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  156 |   void * lib_symbol = [01;35m[Kdlsym[m[K(lib->lib_pointer, symbol_name);
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:157:20:[m[K [01;35m[Kwarning: [m[Kcomparison between pointer and integer
+  157 |   return dlerror() [01;35m[K==[m[K NULL && lib_symbol != 0;
+      |                    [01;35m[K^~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:[m[K In function '[01m[Krcutils_unload_shared_library[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:175:20:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kdlclose[m[K'; did you mean '[01m[Kpclose[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  175 |   int error_code = [01;35m[Kdlclose[m[K(lib->lib_pointer);
+      |                    [01;35m[K^~~~~~~[m[K
+      |                    [32m[Kpclose[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:[m[K In function '[01m[Krcutils_get_platform_library_name[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:198:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer_size[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  198 |   [01;35m[Kunsigned int buffer_size[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/shared_library.c:199:8:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kdebug[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  199 |   bool [01;35m[Kd[m[Kebug)
+      |        [01;35m[K^[m[K
+[ 62%] [32mBuilding C object CMakeFiles/rcutils.dir/src/snprintf.c.obj[0m
+[ 65%] [32mBuilding C object CMakeFiles/rcutils.dir/src/split.c.obj[0m
+[ 68%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strdup.c.obj[0m
+[ 72%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strerror.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:31[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/./common.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/strdup.c:25[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 75%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_array.c.obj[0m
+[ 79%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_map.c.obj[0m
+[ 82%] [32mBuilding C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:31[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/string_array.c:24[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/string_map.c:24[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 86%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time.c.obj[0m
+[ 89%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time_unix.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/time.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/time.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:24[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 93%] [32mBuilding C object CMakeFiles/rcutils.dir/src/uint8_array.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:31[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/uint8_array.c:15[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:12[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:31[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:113:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+  113 | #[01;35m[Kinclude_next[m[K <time.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/toolchain.h:41[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel_includes.h:19[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:31[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/toolchain/gcc.h:62:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+   62 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert(EXPR, "" MSG)
+      |                               [01;35m[K^~~[m[K
+[ 96%] [32mBuilding C object CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:53:10:[m[K [01;35m[Kwarning: [m[Kmismatch in argument 1 type of built-in function '[01m[K__atomic_load_8[m[K'; expected '[01m[Kconst volatile void *[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   53 | uint64_t [01;35m[K__atomic_load_8[m[K(uint64_t *mem, int model) {
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:62:6:[m[K [01;35m[Kwarning: [m[Kmismatch in argument 1 type of built-in function '[01m[K__atomic_store_8[m[K'; expected '[01m[Kvolatile void *[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   62 | void [01;35m[K__atomic_store_8[m[K(uint64_t *mem, uint64_t val, int model) {
+      |      [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:70:10:[m[K [01;35m[Kwarning: [m[Kmismatch in argument 1 type of built-in function '[01m[K__atomic_exchange_8[m[K'; expected '[01m[Kvolatile void *[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   70 | uint64_t [01;35m[K__atomic_exchange_8[m[K(uint64_t *mem, uint64_t val, int model) {
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:80:10:[m[K [01;35m[Kwarning: [m[Kmismatch in argument 1 type of built-in function '[01m[K__atomic_fetch_add_8[m[K'; expected '[01m[Kvolatile void *[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   80 | uint64_t [01;35m[K__atomic_fetch_add_8[m[K(uint64_t *mem, uint64_t val, int model) {
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys_clock.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel_includes.h:35[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:17[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:31[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:217:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  217 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:245:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  245 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:273:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  273 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:301:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  301 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:329:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  329 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ms_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:357:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  357 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ms, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:385:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  385 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:413:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  413 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:441:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  441 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:469:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  469 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:497:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  497 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_us_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:525:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  525 |  return [01;35m[Kz_tmcvt(t, Z_HZ_us, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:553:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  553 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:581:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  581 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:609:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  609 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:637:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  637 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:665:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  665 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ns_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:693:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  693 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ns, Z_HZ_ticks, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:721:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  721 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:749:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  749 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ms_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:777:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  777 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ms, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:805:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  805 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:833:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  833 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_us_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:861:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  861 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_us, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:889:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  889 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:917:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  917 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ns_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:945:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  945 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ns, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:973:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+  973 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1001:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1001 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_cyc_to_ticks_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1029:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1029 |  return [01;35m[Kz_tmcvt(t, Z_HZ_cyc, Z_HZ_ticks, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1057:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1057 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1085:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1085 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ms_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1113:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1113 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ms, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1141:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1141 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1169:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1169 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_us_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1197:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1197 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_us, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1225:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1225 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1253:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1253 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_ns_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1281:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1281 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_ns, true, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_floor32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1309:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1309 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_near32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1337:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1337 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, false, true)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:[m[K In function '[01m[Kk_ticks_to_cyc_ceil32[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/sys/time_units.h:1365:9:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kuint64_t[m[K' {aka '[01m[Klong long unsigned int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1365 |  return [01;35m[Kz_tmcvt(t, Z_HZ_ticks, Z_HZ_cyc, Z_CCYC, true, true, false)[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:59[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:31[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_timer_remaining_get[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:1481:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 1481 |  return k_ticks_to_ms_floor32([01;35m[Kk_timer_remaining_ticks(timer)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:1633:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 1633 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_init[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2714:12:[m[K [01;35m[Kwarning: [m[KISO C forbids empty initializer braces [[01;35m[K-Wpedantic[m[K]
+ 2714 |    .node = [01;35m[K{[m[K},\
+      |            [01;35m[K^[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2749:33:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KZ_DELAYED_WORK_INITIALIZER[m[K'
+ 2749 |  *work = (struct k_delayed_work)[01;36m[KZ_DELAYED_WORK_INITIALIZER[m[K(handler);
+      |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K In function '[01m[Kk_delayed_work_remaining_get[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:2940:31:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kk_ticks_t[m[K' {aka '[01m[Klong long int[m[K'} to '[01m[Kuint32_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+ 2940 |  return k_ticks_to_ms_floor32([01;35m[Kz_timeout_remaining(&work->timeout)[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/include/kernel.h:3259:13:[m[K [01;35m[Kwarning: [m[Kextra semicolon in struct or union specified [[01;35m[K-Wpedantic[m[K]
+ 3259 |  _POLL_EVENT[01;35m[K;[m[K
+      |             [01;35m[K^[m[K
+      |             [31m[K-[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:31[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:[m[K In function '[01m[K_ts_to_ms[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyr_apps/microros_extensions/../../zephyrproject/zephyr/include/posix/time.h:84:37:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Klong long int[m[K' to '[01m[Kint32_t[m[K' {aka '[01m[Kint[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+   84 |  return [01;35m[K(to->tv_sec * MSEC_PER_SEC) + (to->tv_nsec / NSEC_PER_MSEC)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:[m[K At top level:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:42:4:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+   42 | #  [01;35m[Kwarning[m[K no monotonic clock function available
+      |    [01;35m[K^~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcutils/src/time_unix.c:42:4:[m[K [01;35m[Kwarning: [m[K#warning no monotonic clock function available [[01;35m[K-Wcpp[m[K]
+[100%] [32m[1mLinking C static library librcutils.a[0m
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc librcutils.a CMakeFiles/rcutils.dir/src/allocator.c.obj CMakeFiles/rcutils.dir/src/array_list.c.obj CMakeFiles/rcutils.dir/src/char_array.c.obj CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj CMakeFiles/rcutils.dir/src/env.c.obj CMakeFiles/rcutils.dir/src/error_handling.c.obj CMakeFiles/rcutils.dir/src/filesystem.c.obj CMakeFiles/rcutils.dir/src/find.c.obj CMakeFiles/rcutils.dir/src/format_string.c.obj CMakeFiles/rcutils.dir/src/get_env.c.obj CMakeFiles/rcutils.dir/src/hash_map.c.obj CMakeFiles/rcutils.dir/src/logging.c.obj CMakeFiles/rcutils.dir/src/process.c.obj CMakeFiles/rcutils.dir/src/qsort.c.obj CMakeFiles/rcutils.dir/src/repl_str.c.obj CMakeFiles/rcutils.dir/src/shared_library.c.obj CMakeFiles/rcutils.dir/src/snprintf.c.obj CMakeFiles/rcutils.dir/src/split.c.obj CMakeFiles/rcutils.dir/src/strdup.c.obj CMakeFiles/rcutils.dir/src/strerror.c.obj CMakeFiles/rcutils.dir/src/string_array.c.obj CMakeFiles/rcutils.dir/src/string_map.c.obj CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj CMakeFiles/rcutils.dir/src/time.c.obj CMakeFiles/rcutils.dir/src/time_unix.c.obj CMakeFiles/rcutils.dir/src/uint8_array.c.obj CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib librcutils.a
+[100%] Built target rcutils
+-- Install configuration: "Debug"
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/environment/pythonpath.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/environment/pythonpath.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/python3.8/site-packages/rcutils
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/python3.8/site-packages/rcutils/logging.py
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/python3.8/site-packages/rcutils/__init__.py
+Listing '/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/python3.8/site-packages/rcutils'...
+Compiling '/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/python3.8/site-packages/rcutils/__init__.py'...
+Compiling '/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/python3.8/site-packages/rcutils/logging.py'...
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/librcutils.a
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/environment/library_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/environment/library_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rcutils
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rcutils
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/environment/ament_prefix_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/environment/ament_prefix_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/environment/path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/environment/path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/local_setup.bash
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/local_setup.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/local_setup.zsh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/local_setup.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/package.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rcutils
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsExport.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsExport-debug.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig-version.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/package.xml
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/visibility_control.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/filesystem.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/strerror.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/stdatomic_helper.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/stdatomic_helper
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/stdatomic_helper/gcc
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/stdatomic_helper/gcc/stdatomic.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/stdatomic_helper/win32
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/stdatomic_helper/win32/stdatomic.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/env.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/format_string.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/time.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/snprintf.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/configuration_flags.h.in
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/visibility_control_macros.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types/rcutils_ret.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types/uint8_array.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types/string_map.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types/hash_map.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types/array_list.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types/char_array.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/types/string_array.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/qsort.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/process.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/get_env.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/error_handling.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/strdup.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/testing
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/testing/fault_injection.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/shared_library.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/cmdline_parser.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/logging.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/find.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/allocator.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/security_directory.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/split.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/isalnum_no_locale.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/repl_str.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/macros.h
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/configuration_flags.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcutils/logging_macros.h

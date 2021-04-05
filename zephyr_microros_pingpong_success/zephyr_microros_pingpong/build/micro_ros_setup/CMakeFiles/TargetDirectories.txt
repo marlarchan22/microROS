@@ -1,0 +1,9 @@
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/install/strip.dir
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/install/local.dir
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/edit_cache.dir
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/test.dir
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/install.dir
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/list_install_components.dir
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/rebuild_cache.dir
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/micro_ros_setup_uninstall.dir
+/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup/CMakeFiles/uninstall.dir

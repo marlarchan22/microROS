@@ -1,0 +1,34 @@
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/test_rmw_implementation
+-- Install configuration: "Debug"
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/test_rmw_implementation
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/test_rmw_implementation
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/environment/ament_prefix_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/environment/ament_prefix_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/environment/path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/environment/path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/local_setup.bash
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/local_setup.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/local_setup.zsh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/local_setup.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/package.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/packages/test_rmw_implementation
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/cmake/test_rmw_implementationConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/cmake/test_rmw_implementationConfig-version.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/test_rmw_implementation/package.xml

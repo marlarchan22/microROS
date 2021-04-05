@@ -1,0 +1,2 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libmicrocdr.a CMakeFiles/microcdr.dir/src/c/common.c.obj CMakeFiles/microcdr.dir/src/c/types/basic.c.obj CMakeFiles/microcdr.dir/src/c/types/string.c.obj CMakeFiles/microcdr.dir/src/c/types/array.c.obj CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libmicrocdr.a

@@ -1,0 +1,2 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libbuiltin_interfaces__rosidl_typesupport_c.a CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.obj CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libbuiltin_interfaces__rosidl_typesupport_c.a

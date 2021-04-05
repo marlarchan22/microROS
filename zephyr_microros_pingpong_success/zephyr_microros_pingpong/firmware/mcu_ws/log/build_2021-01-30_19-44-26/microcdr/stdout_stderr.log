@@ -1,0 +1,89 @@
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/depend.internal".
+[35m[1mScanning dependencies of target ucdr[0m
+[ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[ 25%] [34m[1mNo download step for 'ucdr'[0m
+[ 37%] [34m[1mNo update step for 'ucdr'[0m
+[ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+loading initial cache file /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Debug.cmake
+Re-run cmake no build system arguments
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr
+[ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/depend.internal".
+[35m[1mScanning dependencies of target microcdr[0m
+[ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.obj[0m
+[ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.obj[0m
+[ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.obj[0m
+[ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/src/c/common_internal.h:22[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/src/c/common.c:15[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/../common_internal.h:22[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/basic.c:15[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/string.c:16[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/../common_internal.h:22[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/array.c:15[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/sequence.c:15[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking C static library libmicrocdr.a[0m
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libmicrocdr.a CMakeFiles/microcdr.dir/src/c/common.c.obj CMakeFiles/microcdr.dir/src/c/types/basic.c.obj CMakeFiles/microcdr.dir/src/c/types/string.c.obj CMakeFiles/microcdr.dir/src/c/types/array.c.obj CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libmicrocdr.a
+[100%] Built target microcdr
+[34m[1mNo install step for 'ucdr'[0m
+[34m[1mCompleted 'ucdr'[0m
+Built target ucdr
+-- Install configuration: "Debug"
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/libmicrocdr.a
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/ucdr
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/ucdr/visibility.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/ucdr/microcdr.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/ucdr/config.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-debug.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake

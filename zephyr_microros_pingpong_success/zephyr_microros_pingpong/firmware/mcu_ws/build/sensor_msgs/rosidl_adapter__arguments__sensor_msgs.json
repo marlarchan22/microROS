@@ -1,0 +1,33 @@
+{
+  "package_name": "sensor_msgs",
+  "non_idl_tuples": [
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/BatteryState.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/CameraInfo.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/ChannelFloat32.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/CompressedImage.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/FluidPressure.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Illuminance.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Image.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Imu.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JointState.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Joy.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JoyFeedback.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JoyFeedbackArray.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/LaserEcho.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/LaserScan.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MagneticField.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MultiDOFJointState.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MultiEchoLaserScan.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/NavSatFix.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/NavSatStatus.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointCloud.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointCloud2.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointField.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Range.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/RegionOfInterest.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/RelativeHumidity.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Temperature.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/TimeReference.msg",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:srv/SetCameraInfo.srv"
+  ]
+}

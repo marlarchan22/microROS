@@ -1,0 +1,4 @@
+Invoking command in '/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup -- -j4 -l4
+Invoked command in '/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup -- -j4 -l4
+Invoking command in '/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup
+Invoked command in '/home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nuc01/zephyr_microros_pingpong/build/micro_ros_setup

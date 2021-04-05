@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/CMakeFiles/microroslib_project"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/CMakeFiles/microroslib_project.rule"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/CMakeFiles/microroslib_project-complete.rule"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/microros_extensions/src/microroslib_project-stamp/microroslib_project-install.rule"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/microros_extensions/src/microroslib_project-stamp/microroslib_project-mkdir.rule"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/microros_extensions/src/microroslib_project-stamp/microroslib_project-download.rule"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/microros_extensions/src/microroslib_project-stamp/microroslib_project-update.rule"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/microros_extensions/src/microroslib_project-stamp/microroslib_project-patch.rule"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/microros_extensions/src/microroslib_project-stamp/microroslib_project-configure.rule"
+		},
+		{
+			"file" : "/home/nuc01/zephyr_microros_pingpong/firmware/build/microros_extensions/src/microroslib_project-stamp/microroslib_project-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"microroslib_project"
+		],
+		"name" : "microroslib_project"
+	}
+}

@@ -1,0 +1,2 @@
+ccache /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc liblib__posix.a CMakeFiles/lib__posix.dir/pthread_common.c.obj CMakeFiles/lib__posix.dir/clock.c.obj CMakeFiles/lib__posix.dir/sleep.c.obj CMakeFiles/lib__posix.dir/timer.c.obj CMakeFiles/lib__posix.dir/mqueue.c.obj CMakeFiles/lib__posix.dir/nanosleep.c.obj
+ccache /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib liblib__posix.a

@@ -1,0 +1,95 @@
+CMake Warning at /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_interfaces/cmake/rcl_interfacesConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/client.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/client.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/client.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/event.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/event.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function '[01m[K__validate_node_name_and_namespace[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:52:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+   52 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:64:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+   64 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:[m[K In function '[01m[Krcl_init[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:195:8:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #endif directive [[01;35m[K-Wendif-labels[m[K]
+  195 | #endif [01;35m[KRCL_COMMAND_LINE_ENABLED[m[K
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function '[01m[Krcl_node_init[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:169:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+  169 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:201:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+  201 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/publisher.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/publisher.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:[m[K In function '[01m[Krcl_rmw_implementation_identifier_check[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:136:34:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Krmw_error_msg[m[K' [[01;35m[K-Wunused-variable[m[K]
+  136 |     const rcutils_error_string_t [01;35m[Krmw_error_msg[m[K = rcl_get_error_string();
+      |                                  [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/service.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/service.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/subscription.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/subscription.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:22[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:[m[K In function '[01m[Krcl_validate_topic_name_with_size[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:58:25:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K-Wchar-subscripts[m[K]
+   58 |   if (isdigit([01;35m[Ktopic_name[0][m[K) != 0) {
+      |               [01;35m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:84:27:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K-Wchar-subscripts[m[K]
+   84 |         isdigit([01;35m[Ktopic_name[i][m[K) != 0 &&
+      |                 [01;35m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:179:29:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K-Wchar-subscripts[m[K]
+  179 |       if (isdigit([01;35m[Ktopic_name[i + 1][m[K) != 0) {
+      |                   [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/client.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/wait.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/wait.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K

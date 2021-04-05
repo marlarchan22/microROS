@@ -1,0 +1,39 @@
+{
+  "package_name": "visualization_msgs",
+  "output_dir": "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_c/visualization_msgs",
+  "template_dir": "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/resource",
+  "idl_tuples": [
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/ImageMarker.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarker.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerControl.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerFeedback.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerInit.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerPose.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerUpdate.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/Marker.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MarkerArray.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MenuEntry.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:srv/GetInteractiveMarkers.idl"
+  ],
+  "target_dependencies": [
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/ImageMarker.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/InteractiveMarker.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/InteractiveMarkerControl.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/InteractiveMarkerFeedback.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/InteractiveMarkerInit.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/InteractiveMarkerPose.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/InteractiveMarkerUpdate.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/Marker.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/MarkerArray.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/msg/MenuEntry.idl",
+    "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs/srv/GetInteractiveMarkers.idl"
+  ]
+}

@@ -1,0 +1,13 @@
+CMake Warning at /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+

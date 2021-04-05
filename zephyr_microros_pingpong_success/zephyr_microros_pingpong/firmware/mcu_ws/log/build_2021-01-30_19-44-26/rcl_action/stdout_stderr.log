@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.1 (/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found action_msgs: 1.0.0 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/action_msgs/cmake)
+CMake Warning at /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/action_msgs/cmake/action_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:7 (find_package)
+
+
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 1.2.0 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+-- Found rcl: 1.1.10 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_microxrcedds'
+-- Found rmw_microxrcedds: 0.0.1 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl_action
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl_action/CMakeFiles/rcl_action.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl_action/CMakeFiles/rcl_action.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl_action/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl_action/CMakeFiles/rcl_action.dir/depend.internal".
+[35m[1mScanning dependencies of target rcl_action[0m
+[ 12%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/action_client.c.obj[0m
+[ 25%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_state_machine.c.obj[0m
+[ 37%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/graph.c.obj[0m
+[ 50%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/names.c.obj[0m
+[ 62%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/types.c.obj[0m
+[ 75%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_handle.c.obj[0m
+[ 87%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/action_server.c.obj[0m
+[100%] [32m[1mLinking CXX static library librcl_action.a[0m
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc librcl_action.a CMakeFiles/rcl_action.dir/src/rcl_action/action_client.c.obj CMakeFiles/rcl_action.dir/src/rcl_action/action_server.c.obj CMakeFiles/rcl_action.dir/src/rcl_action/goal_handle.c.obj CMakeFiles/rcl_action.dir/src/rcl_action/goal_state_machine.c.obj CMakeFiles/rcl_action.dir/src/rcl_action/graph.c.obj CMakeFiles/rcl_action.dir/src/rcl_action/names.c.obj CMakeFiles/rcl_action.dir/src/rcl_action/types.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib librcl_action.a
+[100%] Built target rcl_action
+-- Install configuration: "Debug"
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/visibility_control.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/wait.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/default_qos.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/goal_state_machine.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/types.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/names.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/graph.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/goal_handle.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/rcl_action.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/action_server.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl_action/action_client.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/librcl_action.a
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/environment/library_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/environment/library_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rcl_action
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rcl_action
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/environment/ament_prefix_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/environment/ament_prefix_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/environment/path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/environment/path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/local_setup.bash
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/local_setup.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/local_setup.zsh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/local_setup.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/package.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rcl_action
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/cmake/rcl_actionExport.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/cmake/rcl_actionExport-debug.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/cmake/rcl_actionConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/cmake/rcl_actionConfig-version.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_action/package.xml

@@ -1,0 +1,222 @@
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.1 (/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rcl_interfaces: 1.0.0 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_interfaces/cmake)
+CMake Warning at /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl_interfaces/cmake/rcl_interfacesConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+
+
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 1.2.0 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+-- Found rmw_implementation: 1.0.1 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rmw_implementation/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_microxrcedds'
+-- Found rmw_microxrcedds: 0.0.1 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Found tracetools: 1.0.2 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/tracetools/cmake)
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl/CMakeFiles/rcl.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl/CMakeFiles/rcl.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/rcl/CMakeFiles/rcl.dir/depend.internal".
+[35m[1mScanning dependencies of target rcl[0m
+[  3%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/client.c.obj[0m
+[  7%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/common.c.obj[0m
+[ 11%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/context.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/client.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/client.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 15%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/domain_id.c.obj[0m
+[ 19%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/event.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/client.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/event.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/event.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 26%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/graph.c.obj[0m
+[ 26%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/expand_topic_name.c.obj[0m
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function '[01m[K__validate_node_name_and_namespace[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:52:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+   52 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:64:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+   64 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[ 30%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/guard_condition.c.obj[0m
+[ 34%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/init.c.obj[0m
+[ 38%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/init_options.c.obj[0m
+[ 42%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/lexer.c.obj[0m
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:[m[K In function '[01m[Krcl_init[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:195:8:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #endif directive [[01;35m[K-Wendif-labels[m[K]
+  195 | #endif [01;35m[KRCL_COMMAND_LINE_ENABLED[m[K
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 46%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/lexer_lookahead.c.obj[0m
+[ 50%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/localhost.c.obj[0m
+[ 53%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 57%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node_options.c.obj[0m
+[ 61%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/publisher.c.obj[0m
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function '[01m[Krcl_node_init[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:169:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+  169 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:201:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+  201 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/publisher.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/publisher.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 65%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/rmw_implementation_identifier_check.c.obj[0m
+[ 69%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/security.c.obj[0m
+[ 73%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/service.c.obj[0m
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:[m[K In function '[01m[Krcl_rmw_implementation_identifier_check[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:136:34:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Krmw_error_msg[m[K' [[01;35m[K-Wunused-variable[m[K]
+  136 |     const rcutils_error_string_t [01;35m[Krmw_error_msg[m[K = rcl_get_error_string();
+      |                                  [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/service.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/service.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 76%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/subscription.c.obj[0m
+[ 80%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/time.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/subscription.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/subscription.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 84%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/timer.c.obj[0m
+[ 88%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/validate_enclave_name.c.obj[0m
+[ 92%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/validate_topic_name.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:22[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:[m[K In function '[01m[Krcl_validate_topic_name_with_size[m[K':
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:58:25:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K-Wchar-subscripts[m[K]
+   58 |   if (isdigit([01;35m[Ktopic_name[0][m[K) != 0) {
+      |               [01;35m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:84:27:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K-Wchar-subscripts[m[K]
+   84 |         isdigit([01;35m[Ktopic_name[i][m[K) != 0 &&
+      |                 [01;35m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:179:29:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K-Wchar-subscripts[m[K]
+  179 |       if (isdigit([01;35m[Ktopic_name[i + 1][m[K) != 0) {
+      |                   [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[ 96%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/wait.c.obj[0m
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/node.h:23[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/client.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/include/rcl/wait.h:26[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/uros/rcl/rcl/src/rcl/wait.c:20[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX static library librcl.a[0m
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc librcl.a CMakeFiles/rcl.dir/src/rcl/client.c.obj CMakeFiles/rcl.dir/src/rcl/common.c.obj CMakeFiles/rcl.dir/src/rcl/context.c.obj CMakeFiles/rcl.dir/src/rcl/domain_id.c.obj CMakeFiles/rcl.dir/src/rcl/event.c.obj CMakeFiles/rcl.dir/src/rcl/expand_topic_name.c.obj CMakeFiles/rcl.dir/src/rcl/graph.c.obj CMakeFiles/rcl.dir/src/rcl/guard_condition.c.obj CMakeFiles/rcl.dir/src/rcl/init.c.obj CMakeFiles/rcl.dir/src/rcl/init_options.c.obj CMakeFiles/rcl.dir/src/rcl/lexer.c.obj CMakeFiles/rcl.dir/src/rcl/lexer_lookahead.c.obj CMakeFiles/rcl.dir/src/rcl/localhost.c.obj CMakeFiles/rcl.dir/src/rcl/node.c.obj CMakeFiles/rcl.dir/src/rcl/node_options.c.obj CMakeFiles/rcl.dir/src/rcl/publisher.c.obj CMakeFiles/rcl.dir/src/rcl/rmw_implementation_identifier_check.c.obj CMakeFiles/rcl.dir/src/rcl/security.c.obj CMakeFiles/rcl.dir/src/rcl/service.c.obj CMakeFiles/rcl.dir/src/rcl/subscription.c.obj CMakeFiles/rcl.dir/src/rcl/time.c.obj CMakeFiles/rcl.dir/src/rcl/timer.c.obj CMakeFiles/rcl.dir/src/rcl/validate_enclave_name.c.obj CMakeFiles/rcl.dir/src/rcl/validate_topic_name.c.obj CMakeFiles/rcl.dir/src/rcl/wait.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib librcl.a
+[100%] Built target rcl
+-- Install configuration: "Debug"
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/librcl.a
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/environment/library_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/environment/library_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rcl
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rcl
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/environment/ament_prefix_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/environment/ament_prefix_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/environment/path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/environment/path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/local_setup.bash
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/local_setup.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/local_setup.zsh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/local_setup.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/package.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rcl
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/rclExport.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/rclExport-debug.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/rcl-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/rclConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/rclConfig-version.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/package.xml
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/get_default_rcl_logging_implementation.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcl/cmake/rcl_set_symbol_visibility_hidden.cmake
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/security.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/visibility_control.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/wait.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/validate_enclave_name.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/client.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/logging_external_interface.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/lexer_lookahead.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/publisher.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/init_options.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/domain_id.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/subscription.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/logging_rosout.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/lexer.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/time.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/guard_condition.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/remap.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/init.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/types.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/context.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/node_options.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/timer.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/rmw_implementation_identifier_check.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/event.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/validate_topic_name.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/rcl.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/error_handling.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/arguments.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/node.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/service.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/logging.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/localhost.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/graph.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/allocator.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/expand_topic_name.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/rcl/macros.h

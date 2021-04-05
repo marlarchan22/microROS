@@ -1,0 +1,113 @@
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-10c9078.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-10c9078.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-10c9078.dir/depend.internal".
+[35m[1mScanning dependencies of target libyaml-10c9078[0m
+[ 12%] [34m[1mCreating directories for 'libyaml-10c9078'[0m
+[ 25%] [34m[1mPerforming download step (download, verify and extract) for 'libyaml-10c9078'[0m
+-- Downloading...
+   dst='/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/10c907871f1ccd779c7fccf6b81a62762b5c4e7b.zip'
+   timeout='60 seconds'
+   inactivity timeout='none'
+-- Using src='https://github.com/yaml/libyaml/archive/10c907871f1ccd779c7fccf6b81a62762b5c4e7b.zip'
+-- [download 100% complete]
+-- verifying file...
+       file='/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/10c907871f1ccd779c7fccf6b81a62762b5c4e7b.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/10c907871f1ccd779c7fccf6b81a62762b5c4e7b.zip'
+     dst='/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] [34m[1mNo update step for 'libyaml-10c9078'[0m
+[ 50%] [34m[1mNo patch step for 'libyaml-10c9078'[0m
+[ 62%] [34m[1mPerforming configure step for 'libyaml-10c9078'[0m
+Re-run cmake no build system arguments
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build
+[ 75%] [34m[1mPerforming build step for 'libyaml-10c9078'[0m
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/yaml.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/yaml.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/yaml.dir/depend.internal".
+[35m[1mScanning dependencies of target yaml[0m
+[ 11%] [32mBuilding C object CMakeFiles/yaml.dir/src/api.c.obj[0m
+[ 22%] [32mBuilding C object CMakeFiles/yaml.dir/src/dumper.c.obj[0m
+[ 33%] [32mBuilding C object CMakeFiles/yaml.dir/src/loader.c.obj[0m
+[ 44%] [32mBuilding C object CMakeFiles/yaml.dir/src/emitter.c.obj[0m
+[ 55%] [32mBuilding C object CMakeFiles/yaml.dir/src/parser.c.obj[0m
+[ 66%] [32mBuilding C object CMakeFiles/yaml.dir/src/reader.c.obj[0m
+[ 77%] [32mBuilding C object CMakeFiles/yaml.dir/src/scanner.c.obj[0m
+[ 88%] [32mBuilding C object CMakeFiles/yaml.dir/src/writer.c.obj[0m
+[100%] [32m[1mLinking C static library libyaml.a[0m
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libyaml.a CMakeFiles/yaml.dir/src/api.c.obj CMakeFiles/yaml.dir/src/dumper.c.obj CMakeFiles/yaml.dir/src/emitter.c.obj CMakeFiles/yaml.dir/src/loader.c.obj CMakeFiles/yaml.dir/src/parser.c.obj CMakeFiles/yaml.dir/src/reader.c.obj CMakeFiles/yaml.dir/src/scanner.c.obj CMakeFiles/yaml.dir/src/writer.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libyaml.a
+[100%] Built target yaml
+[ 87%] [34m[1mPerforming install step for 'libyaml-10c9078'[0m
+[100%] Built target yaml
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/yaml.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/config.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/lib/libyaml.a
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets-debug.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfigVersion.cmake
+[100%] [34m[1mCompleted 'libyaml-10c9078'[0m
+[100%] Built target libyaml-10c9078
+-- Install configuration: "Debug"
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/yaml.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/cmake/yamlConfigVersion.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/cmake/yamlConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/cmake/yamlTargets-debug.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/cmake/yamlTargets.cmake
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/libyaml.a
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/environment/library_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/environment/library_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/libyaml_vendor
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/libyaml_vendor
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/environment/path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/environment/path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/local_setup.bash
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/local_setup.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/local_setup.zsh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/local_setup.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/package.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/packages/libyaml_vendor
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/cmake/libyaml_vendor-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/cmake/libyaml_vendorConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/cmake/libyaml_vendorConfig-version.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/libyaml_vendor/package.xml

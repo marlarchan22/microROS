@@ -1,0 +1,2 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libyaml.a CMakeFiles/yaml.dir/src/api.c.obj CMakeFiles/yaml.dir/src/dumper.c.obj CMakeFiles/yaml.dir/src/emitter.c.obj CMakeFiles/yaml.dir/src/loader.c.obj CMakeFiles/yaml.dir/src/parser.c.obj CMakeFiles/yaml.dir/src/reader.c.obj CMakeFiles/yaml.dir/src/scanner.c.obj CMakeFiles/yaml.dir/src/writer.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libyaml.a

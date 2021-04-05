@@ -1,0 +1,106 @@
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_default_generators/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 1.2.0 (/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found ament_cmake_ros: 0.9.1 (/home/nuc01/zephyr_microros_pingpong/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs
+[ 11%] [34m[1mGenerating C code for ROS interfaces[0m
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/depend.internal".
+[35m[1mScanning dependencies of target unique_identifier_msgs__rosidl_generator_c[0m
+[ 22%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/rosidl_generator_c/unique_identifier_msgs/msg/detail/uuid__functions.c.obj[0m
+[ 33%] [32m[1mLinking C static library libunique_identifier_msgs__rosidl_generator_c.a[0m
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libunique_identifier_msgs__rosidl_generator_c.a CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/rosidl_generator_c/unique_identifier_msgs/msg/detail/uuid__functions.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libunique_identifier_msgs__rosidl_generator_c.a
+[ 33%] Built target unique_identifier_msgs__rosidl_generator_c
+[ 44%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_typesupport_microxrcedds_c.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_typesupport_microxrcedds_c.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_typesupport_microxrcedds_c.dir/depend.internal".
+[35m[1mScanning dependencies of target unique_identifier_msgs__rosidl_typesupport_microxrcedds_c[0m
+[ 55%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_c.c.obj[0m
+[ 66%] [32m[1mLinking C static library libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.a[0m
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.a CMakeFiles/unique_identifier_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_c.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.a
+[ 66%] Built target unique_identifier_msgs__rosidl_typesupport_microxrcedds_c
+[ 77%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c.dir/depend.internal".
+[35m[1mScanning dependencies of target unique_identifier_msgs__rosidl_typesupport_c[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unique_identifier_msgs/msg/uuid__type_support.cpp.obj[0m
+[100%] [32m[1mLinking CXX static library libunique_identifier_msgs__rosidl_typesupport_c.a[0m
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libunique_identifier_msgs__rosidl_typesupport_c.a CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unique_identifier_msgs/msg/uuid__type_support.cpp.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libunique_identifier_msgs__rosidl_typesupport_c.a
+[100%] Built target unique_identifier_msgs__rosidl_typesupport_c
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs.dir/DependInfo.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs.dir/depend.internal".
+Dependee "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/unique_identifier_msgs/CMakeFiles/unique_identifier_msgs.dir/depend.internal".
+[35m[1mScanning dependencies of target unique_identifier_msgs[0m
+[100%] Built target unique_identifier_msgs
+-- Install configuration: "Debug"
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/rosidl_interfaces/unique_identifier_msgs
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/detail
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/detail/uuid__struct.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/detail/uuid__functions.c
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/detail/uuid__type_support.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/detail/uuid__functions.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/uuid.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/environment/library_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/environment/library_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/libunique_identifier_msgs__rosidl_generator_c.a
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/detail
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/include/unique_identifier_msgs/msg/detail/microxrcedds
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.a
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/libunique_identifier_msgs__rosidl_typesupport_c.a
+-- Up-to-date: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/lib/libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.a
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/msg/UUID.idl
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/msg/UUID.msg
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/unique_identifier_msgs
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/unique_identifier_msgs
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/environment/path.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/environment/path.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/local_setup.bash
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/local_setup.sh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/local_setup.zsh
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/local_setup.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/package.dsv
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/ament_index/resource_index/packages/unique_identifier_msgs
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_generator_cExport-debug.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport-debug.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig-version.cmake
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/package.xml
+-- Installing: /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/unique_identifier_msgs/mapping_rules.yaml

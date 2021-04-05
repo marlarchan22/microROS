@@ -1,0 +1,2 @@
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libstereo_msgs__rosidl_typesupport_microxrcedds_c.a CMakeFiles/stereo_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_c.c.obj
+/home/nuc01/zephyr_microros_pingpong/firmware/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libstereo_msgs__rosidl_typesupport_microxrcedds_c.a

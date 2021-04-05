@@ -1,0 +1,166 @@
+CMake Warning at /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rmw/cmake/rmwConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+  /home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/install/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/accel__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/inertia__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/inertia__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/inertia_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/point__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/point32__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point32__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/polygon__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/polygon__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/polygon_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/pose__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose2_d__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_array__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/quaternion__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/quaternion_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/transform__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/transform__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/transform_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/twist__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/vector3__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/vector3__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/vector3_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/wrench__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/wrench__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/nuc01/zephyr_microros_pingpong/firmware/mcu_ws/build/geometry_msgs/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/wrench_stamped__type_support_c.c:4[m[K:
+[01m[K/home/nuc01/zephyr_microros_pingpong/firmware/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
